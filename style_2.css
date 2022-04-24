@@ -119,7 +119,8 @@ transition: 0.3s ease-in-out;
 font-weight: 700;
 text-align: center;
 z-index: 3;
-width: 100%;mix-blend-mode: difference;
+width: 100%;
+mix-blend-mode: difference;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -128,7 +129,7 @@ flex-direction: column;
 }
 #logo_id{
   opacity: 0;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease;
 }
 .clip{
   background: url(./resource/ezgif-3-dc31446737.webp);
@@ -166,6 +167,15 @@ transition: 0.4s ease-in-out;
 transform: rotate(90deg);
     backdrop-filter: blur(13px);
     opacity: 0;
+    animation: lod 1s infinite ease-in-out;
+    animation-play-state: paused;
+}
+@keyframes lod {
+  50%{
+
+    border: 2px solid rgb(31, 31, 31);
+  }
+  
 }
 .lf{
     
@@ -312,7 +322,7 @@ transform: rotate(90deg);
     color: #fff;
   
     z-index: 11;
-    transition: 0.3s ease-in-out ;mix-blend-mode: difference;
+    transition: 0.3s ease-in-out ;
   }
   
   li {
@@ -626,3 +636,27 @@ font-size: 32px;
   font-size: 32px;
   line-height: 51px;
 } 
+.yom{ 
+  position: absolute;
+  left: 7%;    
+  top: 35%;
+  height: 30%;
+  z-index: 5;
+  }
+.yom:hover{
+    animation: rot 0.8s infinite ease-in-out;
+    }
+
+@keyframes rot {
+    0%{
+      transform: scale(1);
+    }
+    70%{
+    transform: scale(1.2);
+    }}
+    .yom:active{
+      fill: rgba(100, 100, 100, 0.8);}
+#loid{
+  
+  transition: 0.2s ease-in-out ;
+}
