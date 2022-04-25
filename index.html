@@ -20,11 +20,51 @@
   </head>
 <body>
   <header>
-    <div class="options " style="opacity:0;">
-      <img class="option-item" id="option1" src="./resource/option1.png">
-        <img class="option-item" id="option2" src="./resource/option2.png">
-        <img class="option-item" id="option3" src="./resource/option3.png">
-    </div>
+    <div class="sid">
+<a>    <input id="theme-switcher" class="theme-switcher" autocomplete="off"></a>
+<a>    <input id="cu" class="theme-switcher ts1" autocomplete="off"></a>
+</div>
+
+<a  id="dow">    <input  class="theme-switcher ts2" autocomplete="off"></a>
+
+  
+  <script>// Wait for document to load
+      document.addEventListener("DOMContentLoaded", function(event) {
+        document.documentElement.setAttribute("data-theme", "light");
+     // Wait for document to load
+      document.addEventListener("DOMContentLoaded", function(event) {
+        document.documentElement.setAttribute("data-theme", "dark"); });
+        // Get our button switcher
+        var themeSwitcher = document.getElementById("theme-switcher");
+        // When our button gets clicked
+        themeSwitcher.onclick = function() {
+          // Get the current selected theme, on the first run
+          // it should be `light`
+          var currentTheme = document.documentElement.getAttribute("data-theme");
+          // Switch between `dark` and `light`
+          var switchToTheme = currentTheme === "dark" ? "light" : "dark"
+          // Set our currenet theme to the new one
+          document.documentElement.setAttribute("data-theme", switchToTheme);}
+
+          
+          var cur = document.getElementById("cu");
+          cur.onclick = function() {
+
+            var myCover = document.querySelector("#cursor");
+
+            if (myCover.classList.contains("cursor")) {
+              myCover.classList.remove("cursor"); 
+              document.body.style.cursor = 'auto';
+            } else {
+              myCover.classList.add("cursor");      
+              document.body.style.cursor = 'none'; 
+            }
+
+          }
+        });
+
+        </script>
+
     <div class="header-container" id="header-container" data-aos="fade-in-up" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-once="true"> 
       <div id="navbar">
       <div class="navbar" > 
@@ -74,6 +114,8 @@ burger()
         ></script>
         </div>
         
+        
+
         <a class="logo" 
         href="#"> 
             
@@ -133,6 +175,14 @@ burger()
     </div>
   </header>
 <section>
+  
+  <audio controls="" autoplay style="display: none">
+    <source src="./Startup2.mp3" type="audio/MP3">
+    <script type="text/javascript">
+              console.log("Played")
+          </script>
+  </audio>
+  
   <div class="main-title"><a class="bigg clip">  TALOS</a></div>
   <div class="bg" data-aos="zoom-in"  data-aos-delay="0"data-aos-easing="ease-in-sine" data-aos-duration="900" data-aos-once="true" >
     <div class="bg-wrap none" id="bg-wrap">
@@ -213,7 +263,7 @@ burger()
 </script>
 </body>
 
-<div class="cursor " style="cursor: none;"></div>
+<div id="cursor" class="cursor "></div>
 
 
 </html>
@@ -328,7 +378,11 @@ if(scroll == 0){
       $('.cursor').removeClass('biga');     
   }); 
 
-  document.body.style.cursor = 'none';
+  var myC = document.querySelector("#cursor");
+
+  if (myC.classList.contains("cursor")) {
+      document.body.style.cursor = 'none';
+  }
   const cursor = document.querySelector('.cursor');
 
   document.addEventListener("mousemove", (e) => {
