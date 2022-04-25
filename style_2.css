@@ -210,9 +210,6 @@ color: rgba(253, 253, 253, 0.26);
     background-size: 10%;
   }
 }
-.none{
-  opacity: 0;
-}
 .lines{
     position: absolute;
     border: 2px solid white;
@@ -497,6 +494,9 @@ width: 100%;
   transition: 0.3s ease-in-out;
   z-index: -2;
   }
+.none{
+  opacity: 0;
+}
   /* width */
 ::-webkit-scrollbar {
   width: 4px; position: absolute;
