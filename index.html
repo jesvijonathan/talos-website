@@ -25,10 +25,22 @@
 <a>    <input id="cu" class="theme-switcher ts1" autocomplete="off"></a>
 </div>
 
-<a  id="dow">    <input  class="theme-switcher ts2" autocomplete="off"></a>
+<a  >    <input id="dow" class="theme-switcher ts2" autocomplete="off"></a>
 
   
-  <script>// Wait for document to load
+  <script>
+    
+    function clickEffect(e){
+      var d=document.createElement("cursor");
+      d.className="clickEffect";
+      d.style.top=e.clientY+"px";d.style.left=e.clientX+"px";
+      document.body.appendChild(d);
+      d.addEventListener('animationend',function(){d.parentElement.removeChild(d);}.bind(this));
+      }
+      document.addEventListener('click',clickEffect);
+
+    
+    // Wait for document to load
       document.addEventListener("DOMContentLoaded", function(event) {
         document.documentElement.setAttribute("data-theme", "light");
      // Wait for document to load
@@ -61,6 +73,14 @@
             }
 
           }
+
+          var dow = document.getElementById("dow");
+          dow.onclick = function() {
+            var scroll = $(window).scrollTop();
+          $("html, body").animate({ scrollTop: scroll + 340 + "px" });
+        
+        }
+
         });
 
         </script>
