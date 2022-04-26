@@ -892,19 +892,25 @@ font-size: 32px;
     color: inherit; 
     width: max-content; 
     display: flex; 
-    animation: fade 2s infinite ease;
     transition: 0.3s ease; 
 }
 .meee:hover{
-  animation: none;
   text-shadow:1px 1px 10px #fff, 1px 1px 10px rgba(196, 196, 196, 0.575);
 }
-.meee:hover .glow{ 
-  text-decoration: underline;
+.meee:hover .glow{
+
+  animation: none;
+  border-bottom: 1px solid  white;
+}
+.glow{
+  
+  animation: fade 2s infinite ease;
+  
+  border-bottom: 1px solid  rgba(255, 255, 255, 0);
 }
 @keyframes fade {
   50%{
-    opacity: 0.3;
+  border-bottom: 1px solid  white;
   }
 }
 
@@ -939,7 +945,8 @@ font-size: 32px;
 }
 
 .jwat {
-  color: rgba(255, 255, 255, 0.8);
+  
+  color: rgba(255, 255, 255, 0.7);
   font-size: 7px;
   padding-top: 7.9px;
   mix-blend-mode: difference;
@@ -948,14 +955,14 @@ font-size: 32px;
 }
 .csc_l {
   color: var(--fnt-colr);
-  font-size: 21px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 500;
   position: absolute;
-  top: 20%;
+  top: 24%;
 }
 .con_lm {
   display: flex;
-  margin: 0vw 10vw;
+  margin: 0vw 7vw;
 }
 
 .con_m {
@@ -963,9 +970,8 @@ font-size: 32px;
   align-items: center;
   flex-direction: row;
   position: absolute;
-  right: 0;
+  right: 7vw;
   float: right;
-  margin-right: 10vw;
   bottom: 0%;
   height: 100%;
 }
