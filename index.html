@@ -289,9 +289,53 @@ burger()
 <section id="Events">
   
 
-<div class="events"> 
-  <div class="topic-head"  data-aos="zoom-in" data-aos-duration="400" >Events</div> 
+<div class="events" id="e1"> 
 
+  <div class="topic-head aaaa"  data-aos="zoom-in" data-aos-duration="400" >Events</div> 
+    <div class="wrapper">
+      <div class="card">
+      <img src="./resource/ezgif-3-59312ad44b.webp">
+          <div class="descriptions">
+              <h1>Event 1</h1>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <button><a>
+                Register</a>
+              </button>
+          </div>
+      </div>
+      <div class="card">
+        <img src="./resource/ezgif-3-dc31446737.webp">
+          <div class="descriptions">
+              <h1>Event 2</h1>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem 
+              </p>
+              <button><a>
+                Register</a>
+              </button>
+          </div>
+      </div>
+      <div class="card">
+
+        <div class="descriptions">
+            <h1>Event 3</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard       
+            </p>
+            <button><a>
+                Register</a>
+            </button>
+        </div>
+    </div>
+
+
+
+ 
+ 
+</div>
 </div>
 
 </section>
@@ -486,7 +530,17 @@ if(scroll == 0){
       $('.lines').css({height:"100vw"});
       $('.lines').css({opacity:"0"});
     } 
+
+    if(amn > 2000){
+  
+      $('.none').css({opacity:"0"}); 
+    }
+    else{
+      
+    }
+
   });
+
 
 window.onscroll = function(ev) {
   if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) { 
