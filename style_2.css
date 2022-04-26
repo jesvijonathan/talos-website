@@ -12,6 +12,8 @@
   
   --scrl1 :rgb(0, 0, 0);
   --scrl:rgba(88, 88, 88, 0.74);
+  
+  --circ: rgba(110, 110, 110, 0.3);
 }
 
 [data-theme = "light"] {
@@ -23,6 +25,8 @@
 
   --scrl:rgb(255, 255, 255);
   --scrl1:rgba(163, 163, 163, 0.7);
+  
+  --circ: rgba(255, 255, 255, 0.39);
 }
 
 
@@ -102,7 +106,7 @@
    position:fixed;
    box-sizing:border-box;
    border-style:solid;
-   border-color:#FFFFFF;
+   border-color:var(--fnt-colr);
    border-radius:50%;
    animation:clickEffect 0.3s ease-out;
    z-index:99999;
@@ -527,7 +531,7 @@ width: 100%;
 .topic-img-con {
   height: 24vw;
   width: 24vw;
-  background-color: rgba(255, 255, 255, 0.39);
+  background-color: var(--circ);
   border-radius: 54% 46% 70% 30% / 30% 68% 32% 70%;
   animation: morph 10s ease-in-out;
   animation-iteration-count: infinite;
@@ -825,4 +829,181 @@ font-size: 32px;
   
   backdrop-filter: blur(5px);
   background-color: #8a8a8a65;
+}
+
+.events{
+  background-color:var(--bkg-colr);
+  z-index: 15;
+  height: 100%;
+  width: 100%; 
+}
+.s5 {
+  height: 260px;
+  min-height: 260px;
+  background-color: var(--bkg-colr);
+  position: absolute;        
+  border-top: 1px solid rgba(63, 63, 63, 0.7);
+}
+
+.last_pa {
+  bottom: 0%;
+  height: 1.6em;
+  width: 100%;
+  position: absolute;
+}
+
+.divilin {
+  border-top: 1px solid rgba(63, 63, 63, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.socials {
+  border: 0px solid var(--fnt-colr);
+  width: max-content;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* top: 34px; */
+  top: 12px;
+
+  position: absolute;
+  transition: 0.1s ease-in-out;
+  z-index: 0;
+}
+
+.button_social_group a {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+  transition: 0.3s ease-in-out;
+  color: var(--fnt-colr);
+}
+.button_social_group a i {
+  font-size: 1.3rem;
+}
+
+.button_social_group:hover a:not(:hover) {
+  opacity: 0.4;
+}
+.meee{
+  text-decoration: none;
+    color: inherit; 
+    width: max-content; 
+    display: flex; 
+    animation: fade 2s infinite ease;
+    transition: 0.3s ease; 
+}
+.meee:hover{
+  animation: none;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px rgba(196, 196, 196, 0.575);
+}
+.meee:hover .glow{ 
+  text-decoration: underline;
+}
+@keyframes fade {
+  50%{
+    opacity: 0.3;
+  }
+}
+
+.fa {
+  transition: 0.3s ease-in-out;
+}
+/* .button_social_group a:hover .fa {
+
+  font-size: 1.4rem;
+} */
+.screen-reader-text,
+.nectar-skip-to-content:not(:focus) {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.con_l {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  top: 50%;
+  width: 227px;
+  margin-left: -0.8rem;
+}
+
+.jwat {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 7px;
+  padding-top: 7.9px;
+  mix-blend-mode: difference;
+  
+  display: flex;
+}
+.csc_l {
+  color: var(--fnt-colr);
+  font-size: 21px;
+  font-weight: 600;
+  position: absolute;
+  top: 20%;
+}
+.con_lm {
+  display: flex;
+  margin: 0vw 10vw;
+}
+
+.con_m {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  right: 0;
+  float: right;
+  margin-right: 10vw;
+  bottom: 0%;
+  height: 100%;
+}
+.links_b {
+  font-size: 10px;
+  font-weight: 100;
+  margin-top: 60px;
+}
+.links_b a {
+  margin-left: 10px;
+  margin-left: 10px;
+  color: var(--fnt-colr);
+}
+.bl {
+  position: absolute;
+  top: 70px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+
+  flex-direction: row-reverse;
+  width: 100%;
+
+  /* flex-direction: row;
+  left: 1%; */
+}
+.bl a {
+  padding: 10px 1px;
+  min-width: 100px;
+  margin-left: 20px;
+  border: 2px solid var(--texb);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--fnt-colr);
+  text-align: center;
+}
+.bl a:hover {
+  background-color: var(--fnt-colr);
+  color: var(--bkg-colr);
 }

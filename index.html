@@ -10,12 +10,17 @@
   
 
   <head>
+    <link rel="icon" type="image/png" href="./favicon2.png" sizes="32x32">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <link rel="stylesheet" href="./style_2.css" />
+    <link rel="stylesheet" href="./font-awesome.min.css" ><link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
 
   </head>
 <body>
@@ -278,10 +283,86 @@ burger()
 </section>
 
 
+<section>
+  
+
+<div class="events"> 
+  <div class="topic-head"  data-aos="zoom-in" data-aos-duration="400" >Events</div>
+aosdjhasjdhasokjaodkajodksajo
+
+</div>
+
+</section>
+
+
+
+<section class="section s5"> 
+  
+  <div class="con_lm">
+  
+    <div class="csc_l">TALOS </div>
+<div class="con_l">
+  <div class="socials" id="logoi">
+    
+    <li id="social-in-menu" class="button_social_group">
+      
+      <a target="_blank" href="www.facebook.com/christhavasangam.church">
+        <span class="screen-reader-text">Facebook</span>
+        <i class="fa fa-facebook " aria-hidden="true"></i> 
+      </a>
+
+      <a target="_blank" href="https://github.com/jesvijonathan">
+        <span class="screen-reader-text">Github</span>
+        <i class="fa fa-envelope"   aria-hidden="true"></i> 
+      </a>
+      <a target="_blank" href="https://www.youtube.com/channel/UCle1DoWYu4gfKW3YQKezwsw">
+        <span class="screen-reader-text">youtube</span>
+        <i class="fa fa-phone"   aria-hidden="true"></i> 
+      </a>
+      <a target="_blank" href="https://www.instagram.com/_jesvi_">
+        <span class="screen-reader-text">instagram</span>
+        <i class="fa fa-map-marker"   aria-hidden="true"></i> 
+      </a>
+      <a target="_blank" href="https://soundcloud.com/jesvi-jonathan-513045540">
+        <span class="screen-reader-text">soundcloud</span>
+        <i class="fa fa-telegram"  aria-hidden="true"></i> 
+      </a>
+    <div id="spann"></div>
+    </li> 
+</div>
+</div> 
+
+<div class="con_m">
+<div class="bl">
+<a href="#">Contact</a>
+<a href="#">Register</a> 
+</div>
+<li class="links_b">
+  <a href="" target="_blank">Terms & Policy</a>
+  <a href="" target="_blank">Contact Us</a>
+  <a href="" target="_blank">Services</a>
+  <a href="" target="_blank">Cookies</a> 
+</li>
+</div> 
+
+   </div>
+   
+   <div class="last_pa">
+    <div class="divilin">
+      <div class="jwat">All Rights Reserved | Copyright ©2022 |<a class="meee" href="https://jesvi.pythonanywhere.com/" target="_blank">&nbsp;Website By <div class="glow">&nbsp;Jesvi Jonathan</div></a></div></div>
+   </div>
+
+</section>
+
+
 <script>
   AOS.init({once: false,});
 </script>
+
+
+
 </body>
+
 
 <div id="cursor" class="cursor "></div>
 
@@ -319,7 +400,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     var amount = -280+a;
     var amn = a+90;
 
-    console.log(scroll, amount, amn) 
+    //console.log(scroll, amount, amn) 
 
     if (amount > -200){
       $('.main-title').css({opacity:"0"});
@@ -394,6 +475,18 @@ if(scroll == 0){
       $('.lines').css({opacity:"0"});
     } 
   });
+
+window.onscroll = function(ev) {
+  if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) { 
+    document.getElementById("logo_id").style.opacity = "0";
+    
+    document.getElementById("loid").style.opacity = "1"; 
+    $('.theme-switcher').css({opacity:"0"});
+  }else{
+    
+    $('.theme-switcher').css({opacity:"1"});
+  }
+};
 </script>
 
 

@@ -1,0 +1,9 @@
+About sympo
+About college
+https://cithackerz.herokuapp.com/about
+Event Details:
+Talos is an annual Technical fest conducted by the Department of Artificial Intelligence & Data Science, Chennai Institute of the technology. An event as glorious as its name, we have a variety of events, challenges that are fun and educative to all geeks out there. A throng of events that inculcate fun and technology, a multitude of workshops, gaming and much more.
+
+Add to Calendar 2019-09-06 09:00 AM 2019-09-06 05:00 PM Hackerz 2019
+Hackerz is an annual Technical fest conducted by the Department of Computer Science Engineering and Information Technology, Chennai Institute of the technology. An event as glorious as its name, we have a variety of events, challenges that are fun and educative to all geeks out there. A throng of events that inculcate fun and technology, a multitude of workshops, gaming and much more.
+
