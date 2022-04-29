@@ -917,8 +917,8 @@
       margin-top: 23vh;
     }
     .invi {
-      opacity: 0;
-      z-index: -3;
+      opacity: 1;
+      z-index: 13;
       transition: 0.2s ease;
       display: flex;
       justify-content: space-between;
@@ -930,7 +930,7 @@
       left: 0px;
       width: 100%;
       top: 0%;
-      visibility: hidden;
+      visibility: visible;
     }
     .nav-link {
       font-size: 2.8vh;
