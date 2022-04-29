@@ -1403,7 +1403,7 @@ transform: translate(-50%,-55%);
 height: 100%;
 width: 100%;
 backdrop-filter: blur(5px);
-background-color: #0000004f;
+background-color: #00000077;
 z-index: 9;
 position: fixed;
 }
