@@ -659,20 +659,21 @@ background-size: 60%;
   left: 6%;
 }
 .p2 {
-  /* background-image: url("./t.webp");
+  
+    background-image: url("./t.webp");
   background-position: center;
   background-size: contain;background-repeat: no-repeat;
   background-size: 57%;
     border-radius:  0%;
     top: -10%;
-    left: 3%; */
-    background-image: url("./photoroom (13).webp");
+    left: 3%;
+    /* background-image: url("./photoroom (13).webp");
     background-position: center;
     background-size: contain;background-repeat: no-repeat;
     background-size: 120%;
       border-radius:  100%;
       top: -20%;
-      left: -3%;
+      left: -3%; */
   }
 .p3 {
   background-image: url("./boy.png");
@@ -1228,11 +1229,14 @@ transform: translate(0%, -50%);
   
   visibility: hidden;
   display: block;
+  
+  z-index: 6;
 }
 
 .pop{
   height: 100%;
   transition: 0.3s ease-out;
+  z-index: 7;
 }
 .even_name{
   font-size: 1.6vw;

@@ -42,58 +42,7 @@
 <a data-aos="fade-in" data-aos-duration="600" data-aos-delay="800"><input id="dow" class="theme-switcher ts2" autocomplete="off"></a>
 
   
-  <script>
-    
-    function clickEffect(e){
-      var d=document.createElement("cursor");
-      d.className="clickEffect";
-      d.style.top=e.clientY+"px";d.style.left=e.clientX+"px";
-      document.body.appendChild(d);
-      d.addEventListener('animationend',function(){d.parentElement.removeChild(d);}.bind(this));
-      }
-      document.addEventListener('click',clickEffect);
 
-     
-      document.addEventListener("DOMContentLoaded", function(event) {
-        document.documentElement.setAttribute("data-theme", "light"); 
-      document.addEventListener("DOMContentLoaded", function(event) {
-        document.documentElement.setAttribute("data-theme", "dark"); }); 
-        var themeSwitcher = document.getElementById("theme-switcher");
-        // When our button gets clicked
-        themeSwitcher.onclick = function() {
-          // Get the current selected theme, on the first run
-          // it should be `light`
-          var currentTheme = document.documentElement.getAttribute("data-theme");
-          // Switch between `dark` and `light`
-          var switchToTheme = currentTheme === "dark" ? "light" : "dark"
-          // Set our currenet theme to the new one
-          document.documentElement.setAttribute("data-theme", switchToTheme);}
-
-          
-          var cur = document.getElementById("cu");
-          cur.onclick = function() {
-
-            var myCover = document.querySelector("#cursor");
-
-            if (myCover.classList.contains("cursor")) {
-              myCover.classList.remove("cursor"); 
-              document.body.style.cursor = 'auto';
-            } else {
-              myCover.classList.add("cursor");      
-              document.body.style.cursor = 'none'; 
-            }
-
-          }
-
-          var dow = document.getElementById("dow");
-          dow.onclick = function() {
-            var scroll = $(window).scrollTop();
-          $("html, body").animate({ scrollTop: scroll + 340 + "px" });
-        
-        }
-
-        });
-        </script>
 
     <div class="header-container" id="header-container" data-aos="fade-in-up" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-once="true"> 
       <div id="navbar">
@@ -132,7 +81,7 @@ burger()
                 myCover.classList.remove("cover-open");
                 myinvi.classList.remove("invi-open");
                 
-      $('.sid').css({display: "none"});
+              $('.sid').css({display: "none"});
               document.getElementById("blurbg").style.display = "none";
                 
               } else {
@@ -856,8 +805,10 @@ $(document).ready(function(){
               myCover.classList.remove("up"); 
               
             $('.boir').hide(0);
-            
 
+            
+              document.getElementById("blurbg").style.display = "none";
+              $('.blurbg').css({zindex:"-15"});
             } else {
               myCover.classList.add("up");
             
@@ -866,8 +817,65 @@ $(document).ready(function(){
 
               $('.boir').show(0);
               $('.boir').css({visibility:"visible"}); 
-            
+              
+              $('.blurbg').css({zindex:"20"});
+
+              document.getElementById("blurbg").style.display = "block";
+              document.getElementById("blurbg").style.zIndex = "5";
             }
           }
 //popup shiz
 </script>
+
+<script>
+    
+  function clickEffect(e){
+    var d=document.createElement("cursor");
+    d.className="clickEffect";
+    d.style.top=e.clientY+"px";d.style.left=e.clientX+"px";
+    document.body.appendChild(d);
+    d.addEventListener('animationend',function(){d.parentElement.removeChild(d);}.bind(this));
+    }
+    document.addEventListener('click',clickEffect);
+
+   
+    document.addEventListener("DOMContentLoaded", function(event) {
+      document.documentElement.setAttribute("data-theme", "light"); 
+    document.addEventListener("DOMContentLoaded", function(event) {
+      document.documentElement.setAttribute("data-theme", "dark"); }); 
+      var themeSwitcher = document.getElementById("theme-switcher");
+      // When our button gets clicked
+      themeSwitcher.onclick = function() {
+        // Get the current selected theme, on the first run
+        // it should be `light`
+        var currentTheme = document.documentElement.getAttribute("data-theme");
+        // Switch between `dark` and `light`
+        var switchToTheme = currentTheme === "dark" ? "light" : "dark"
+        // Set our currenet theme to the new one
+        document.documentElement.setAttribute("data-theme", switchToTheme);}
+
+        
+        var cur = document.getElementById("cu");
+        cur.onclick = function() {
+
+          var myCover = document.querySelector("#cursor");
+
+          if (myCover.classList.contains("cursor")) {
+            myCover.classList.remove("cursor"); 
+            document.body.style.cursor = 'auto';
+          } else {
+            myCover.classList.add("cursor");      
+            document.body.style.cursor = 'none'; 
+          }
+
+        }
+
+        var dow = document.getElementById("dow");
+        dow.onclick = function() {
+          var scroll = $(window).scrollTop();
+        $("html, body").animate({ scrollTop: scroll + 340 + "px" });
+      
+      }
+
+      });
+      </script>
