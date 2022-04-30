@@ -811,11 +811,11 @@ $(document).ready(function(){
 
   function reg_view(clicked_id){
 
+    document.getElementById("blurbg").style.display = "none";
+    $('.blurbg').css({zindex:"-15"});
             var myCover = document.querySelector("#boir");
             
-            document.getElementById("blurbg").style.display = "none";
-            $('.blurbg').css({zindex:"-15"});
-            
+
             switch (clicked_id){
               case "ev1":
                 window.open("https://jesvijonathan.github.io/talos-website/event-designo-lit-o", "_blank");break;
