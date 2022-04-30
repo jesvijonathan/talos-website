@@ -138,23 +138,23 @@ burger()
         <ul class="nav-menu">
           <div class="invi" id="invi" data-aos="fade-left" data-aos-duration="500" data-aos-delay="350">
           <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link" onclick="cls_b()">Home</a>
             <div class="nbox"></div>
           </li>
           <li class="nav-item" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400">
-            <a href="#About" class="nav-link">About</a>
+            <a href="#About" class="nav-link" onclick="cls_b()">About</a>
             <div class="nbox"></div>
           </li>
           <li class="nav-item" data-aos="fade-left" data-aos-duration="500" data-aos-delay="450">
-            <a href="#Events" class="nav-link">Events</a>
+            <a href="#Events" class="nav-link" onclick="cls_b()">Events</a>
             <div class="nbox"></div>
           </li>
           <li class="nav-item" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">
-            <a href="#Register" class="nav-link">Register</a>
+            <a href="#Register" class="nav-link" onclick="cls_b()">Register</a>
             <div class="nbox"></div>
           </li>
           <li class="nav-item" data-aos="fade-left" data-aos-duration="500" data-aos-delay="550">
-            <a href="#Contact" class="nav-link">Contact</a>
+            <a href="#Contact" class="nav-link" onclick="cls_b()">Contact</a>
             <div class="nbox"></div>
           </li>
           </div>
@@ -795,6 +795,24 @@ $(document).ready(function(){
 
 
 <script> 
+
+  function cls_b(){
+
+    console.log("here threre");
+    
+    document.getElementById("blurbg").style.display = "none";
+    $('.blurbg').css({zindex:"-15"});
+
+    var myElement = document.querySelector("#burger_menu");
+
+    var myCover = document.querySelector("#cover");
+    var myinvi = document.querySelector("#invi")
+
+    myElement.classList.remove("open");
+    myCover.classList.remove("cover-open");
+    myinvi.classList.remove("invi-open");
+    }
+
   function reg_view(clicked_id){
 
             var myCover = document.querySelector("#boir");
