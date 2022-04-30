@@ -1246,6 +1246,14 @@ transform: translate(0%, -50%);
   color:var(--fnt-colr);
   
 }
+.event_main{
+  border: 2px solid rgba(255, 255, 255, 0);
+  padding: 2vw;
+  position: relative;
+  margin-top:12%; 
+  
+  margin-bottom:2%; 
+}
 .cls{
   font-size: 24px;
   position: absolute;
@@ -1424,6 +1432,8 @@ position: fixed;
   
 display: none;
 }
+
+
 
 @media only screen and (max-width: 768px) {
   .burger {
