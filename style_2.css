@@ -1238,7 +1238,7 @@ transform: translate(0%, -50%);
   transition: 0.3s ease-out;
   z-index: 7;
 }
-.even_name{
+.even_name{ 
   font-size: 1.6vw;
   text-align: center;
   width: 100%;
