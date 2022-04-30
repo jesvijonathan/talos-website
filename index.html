@@ -1,7 +1,8 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <script>//if (window.location.href !== "https://jesvijonathan.github.io/talos-website-beta"){                                                                                                                                                                               window.location = "https://jesvijonathan.github.io/talos-website-beta";}                                                                                                                                                                                                                                                                                                                          </script>
 <!DOCTYPE html> 
 <html>
   <meta charset="UTF-8">
-  <meta name="description" content="TALOS, an event organized by the department of AI & DS, In regards to Symposium conducted in Chennai Institute Of Technology.\nWebsite By Jesvi Jonathan">
+  <meta name="description" content="TALOS, an event organized by the department of AI & DS, In regards to Symposium conducted in Chennai Institute Of Technology. Website By Jesvi Jonathan">
   <meta name="keywords" content="TALOS, CIT, CHENNAI, SYMPOSIUM, EVENT, COLLEGE, COMPETITION, INSTITUTE, TECHNOLOGY, AI, ARTIFICIAL INTELLIGENCE, DATA, SCIENCE, TALOSCIT, JESVI, DESIGN">
   <meta name="author" content="Jesvi Jonathan">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -326,7 +327,7 @@ burger()
               <p>
                 This is an event where you can exhibit your designing skills in <b>Figma</b>, an online collaboration tool used by designers and developers. Unleash the potential of your design abilities & Grab the opportunity to show off your talent.
               </p>
-              <button><a>
+              <button id="ev1" onClick="reg_view(this.id)"><a>
                 More</a>
               </button>
           </div>
@@ -342,7 +343,7 @@ burger()
               <p>Are you looking for an enthusiastic way to put your technical intelligence to the test ? Try <b>CTF</b> ! 
                 The objective of this event is to <b>solve programing tasks</b> in a specific order using clues/hints hidden inside a <b>website/Frame-work</b>. You will have to complete maximum tasks in a given time limit to win !
               </p>
-              <button><a>
+              <button id="ev2" onClick="reg_view(this.id)"><a>
                 More</a>
               </button>
           </div>
@@ -358,7 +359,7 @@ burger()
             <p>
               Paper presentation enables you to unveil your ideas and gain exposure to various insightful concepts. You can reveal the truths behind unexplored phenomena in the extensive world of science and technology by exhibiting your ingenious thoughts and let your innovations speak through your Paper.              
             </p>
-            <button><a>
+            <button id="ev3" onClick="reg_view(this.id)"><a>
                 More</a>
             </button>
         </div>
@@ -373,7 +374,7 @@ burger()
               <h1>Codoput</h1>
               <p>
                 Codoput is an event where the participants have to pop a balloon and provide the <b>output for the snippet of code</b> present inside the balloon within given time limit. Put your logical thinking abilities to the test.</p>
-              <button><a>
+              <button id="ev4" onClick="reg_view(this.id)"><a>
                 More</a>
               </button>
           </div>
@@ -392,7 +393,7 @@ burger()
                   This <b>online event</b>, is to make an informative poster based on the topic/theme given. It must depict the topic to its fullest. Make your creativity visible to the world through this event. Don't let this opportunity pass you by ! Expand you creative boundaries.
                     
                 </p>
-                <button><a>
+                <button id="ev5" onClick="reg_view(this.id)"><a>
                   More</a>
                 </button>
             </div>
@@ -520,7 +521,7 @@ burger()
 
 <section class="pop">
 <div class="boir" id="boir">  
-<div class="cls"><a>x</a></div>
+<div class="cls" id="x" onClick="reg_view(this.id)"><a>x</a></div>
 <div class="even_name">CAPTURE THE FLAG</div>
 <div class="even_slog">You never lose, You either win or learn</div>
 <div class="popc">
@@ -661,6 +662,14 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
       $('.blurbg').css({backgroundColor: "#00000077"});
      
       $('.slogan').css({backdropFilter: "blur(0px)"});
+      
+      
+    
+      $('.svgcol').css({height: "100vh"});
+      $('.svgcol').css({width: "100vh"});
+      
+      $('.pop').css({display:"none"});
+      $('.boir').css({display:"none"});
       //alert("This website is not supported by Mobile Devices !");
     //window.location = "https://youtube.com/c/Jesvi";
   // these lines are there for a reason...
@@ -686,7 +695,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
 <script>
   
-  document.getElementById("boir").style.display = "none"; 
+  //document.getElementById("boir").style.display = "none"; 
 
   $(document).scroll(function(){
     var scroll = $(window).scrollTop();
@@ -787,7 +796,6 @@ window.onscroll = function(ev) {
     document.getElementById("loid").style.opacity = "1"; 
     $('.theme-switcher').css({opacity:"0"});
   }else{
-    
     $('.theme-switcher').css({opacity:"1"});
   }
 };
@@ -831,3 +839,30 @@ $(document).ready(function(){
 });
 </script>
   
+
+
+<script> 
+  function reg_view(clicked_id){
+
+            var myCover = document.querySelector("#boir");
+
+            console.log("here threre");
+
+            if (myCover.classList.contains("up")) {
+              myCover.classList.remove("up"); 
+              
+            $('.boir').hide(0);
+            
+
+            } else {
+              myCover.classList.add("up");
+            
+
+              $('.boir').css({zindex:"20"}); 
+
+              $('.boir').css({visibility:"visible"}); 
+            
+            }
+          }
+
+</script>

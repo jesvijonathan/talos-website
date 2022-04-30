@@ -758,7 +758,7 @@ font-size: 32px;
       fill: rgba(100, 100, 100, 0.8);}
 #loid{
   
-  transition: 0.2s ease-in-out ;
+  transition: 0.1s;
 }
 
 
@@ -1220,8 +1220,13 @@ transform: translate(0%, -50%);
   background-color:var(--bkg-colr);
   border-radius: 7px;
   color:var(--bkg-colr);
-  z-index: 20;
   transition: 0.3s ease-out;
+  
+}
+#boir{
+  
+  visibility: hidden;
+  display: block;
 }
 
 .pop{
@@ -1406,6 +1411,8 @@ backdrop-filter: blur(5px);
 background-color: #00000077;
 z-index: 9;
 position: fixed;
+
+
 }
 #blurbg{
   
@@ -1677,9 +1684,10 @@ display: none;
     color: #000000;
   }
   .yom{
-    height: 28px;
+    height: 33px;
     /* top: 10vw; */
     transform: translate(4%, 33%);
+    left: 5%;
     /* left: 10vw;*/
   }
   .yom:hover{ 
@@ -1703,8 +1711,6 @@ display: none;
   }
   .svgcol{
     position: absolute;
-    height: 100vh;
-    width: 100vh;
     top: 50%;
     /* transform: rotate(90deg); */
     left: 50%;
@@ -1760,12 +1766,7 @@ display: none;
   .dh{
     
   }
-  .boir{
-    display: none;
-  }
-  .pop{
-    display: none;
-  }
+
   .burger {
     height: 3em;
     width: 3em;
@@ -1778,7 +1779,7 @@ display: none;
     -webkit-tap-highlight-color: transparent;
     z-index: 2;
   
-    right: 8%;
+    right: 5%;
       top: 55%;
   }
   .burger .burger-lines:after {
@@ -1868,10 +1869,26 @@ display: none;
   .burger .burger-lines:before {
     background-color:var(--fnt-colr);
   }
-  
 
+  #dow{
+    display: none;
+  }
+  #pur{
+
+    display: none;
+  }
+
+  .boir{
+  visibility: hidden;
+  }
+   .pop{
+  /*  z-index: -20;
+    visibility: hidden; */
+  }
 }
 
 .logo{
   /* display: none; */
 }
+
+
