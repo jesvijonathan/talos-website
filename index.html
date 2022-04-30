@@ -815,7 +815,8 @@ $(document).ready(function(){
     $('.blurbg').css({zindex:"-15"});
             var myCover = document.querySelector("#boir");
             
-
+            
+            if (isMobile == true){
             switch (clicked_id){
               case "ev1":
                 window.open("https://jesvijonathan.github.io/talos-website/event-designo-lit-o", "_blank");break;
@@ -827,11 +828,11 @@ $(document).ready(function(){
                 window.open("https://jesvijonathan.github.io/talos-website/event-codoput", "_blank");break;
                 case "ev5":
                 window.open("https://jesvijonathan.github.io/talos-website/event-dazibao", "_blank");break;
-            }
+            }}
             
- 
+            else{
 
-            if (myCover.classList.contains("up") && isMobile == true) {
+            if (myCover.classList.contains("up")) {
               myCover.classList.remove("up"); 
               
             $('.boir').hide(0);
@@ -850,7 +851,7 @@ $(document).ready(function(){
 
               document.getElementById("blurbg").style.display = "block";
               document.getElementById("blurbg").style.zIndex = "5";
-            }
+            }}
           }
 //popup shiz
 </script>
