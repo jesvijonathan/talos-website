@@ -794,6 +794,7 @@ font-size: 32px;
   
   border-radius: 5px;
 }
+
 @keyframes das {
   0%{
     transform: rotate(0deg);
@@ -1394,6 +1395,7 @@ transform: translate(0%, -50%);
 
 }
 .ccc{ 
+
 }
 
 .cenli{
@@ -1683,6 +1685,7 @@ display: none;
     background-color: #fff;
     color: #000000;
   }
+
   .yom{
     height: 33px;
     /* top: 10vw; */
@@ -1890,5 +1893,4 @@ display: none;
 .logo{
   /* display: none; */
 }
-
 
