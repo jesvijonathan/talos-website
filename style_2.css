@@ -504,7 +504,7 @@ letter-spacing: 0.2em;
   .svgcol{
     
     position: absolute;
-    height: 100vw;
+    height: 100vh;
     width: 100vw;
   }
 .none{
@@ -659,20 +659,21 @@ background-size: 60%;
   left: 6%;
 }
 .p2 {
-  /* background-image: url("./t.webp");
+  
+    background-image: url("./t.webp");
   background-position: center;
   background-size: contain;background-repeat: no-repeat;
   background-size: 57%;
     border-radius:  0%;
     top: -10%;
-    left: 3%; */
-    background-image: url("./photoroom (13).webp");
+    left: 3%;
+    /* background-image: url("./photoroom (13).webp");
     background-position: center;
     background-size: contain;background-repeat: no-repeat;
     background-size: 120%;
       border-radius:  100%;
       top: -20%;
-      left: -3%;
+      left: -3%; */
   }
 .p3 {
   background-image: url("./boy.png");
@@ -794,6 +795,7 @@ font-size: 32px;
   
   border-radius: 5px;
 }
+
 @keyframes das {
   0%{
     transform: rotate(0deg);
@@ -1227,19 +1229,30 @@ transform: translate(0%, -50%);
   
   visibility: hidden;
   display: block;
+  
+  z-index: 6;
 }
 
 .pop{
   height: 100%;
   transition: 0.3s ease-out;
+  z-index: 7;
 }
-.even_name{
+.even_name{ 
   font-size: 1.6vw;
   text-align: center;
   width: 100%;
   margin-top: 5vh;
   color:var(--fnt-colr);
   
+}
+.event_main{
+  border: 2px solid rgba(255, 255, 255, 0);
+  padding: 2vw;
+  position: relative;
+  margin-top:8%; 
+  
+  margin-bottom:3%; 
 }
 .cls{
   font-size: 24px;
@@ -1394,6 +1407,7 @@ transform: translate(0%, -50%);
 
 }
 .ccc{ 
+
 }
 
 .cenli{
@@ -1418,6 +1432,8 @@ position: fixed;
   
 display: none;
 }
+
+
 
 @media only screen and (max-width: 768px) {
   .burger {
@@ -1509,6 +1525,8 @@ display: none;
   .nav-link {
     font-size: 2.8vh;
     font-weight: 500;
+    
+    color: white; 
   }
   /* }
 @media only screen and (min-width: 769px) {
@@ -1683,6 +1701,7 @@ display: none;
     background-color: #fff;
     color: #000000;
   }
+
   .yom{
     height: 33px;
     /* top: 10vw; */
@@ -1739,9 +1758,9 @@ display: none;
     left: 4%;
   }
   .p2{ 
-    top: -6%;
-    left: -4%;
-    background-size: 100%;
+    top: -4%;
+    left: 0%;
+    background-size: 50%;
   }
   .p3{
     top: -4%;
@@ -1890,5 +1909,4 @@ display: none;
 .logo{
   /* display: none; */
 }
-
 
