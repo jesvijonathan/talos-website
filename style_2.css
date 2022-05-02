@@ -1230,7 +1230,7 @@ transform: translate(0%, -50%);
   visibility: hidden;
   display: block;
   
-  z-index: 6;
+  z-index: 15;
 }
 
 .pop{
