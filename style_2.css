@@ -2027,21 +2027,28 @@ display: none;
 .nloader{
   position: fixed;
   background-color: #000000;
+  
   height: 100%;
   width: 100%;
-  z-index: 45;
+  
+  z-index: -45;
   transition: 0.3s ease-in-out;
   overflow: hidden;
+  transition: 0.3s ease-in-out;
 }
 
 .nlder{
   position: fixed;
+  
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
-  z-index: 50;
+
   transition: 0.7s ease-in-out;
-  height: 20%;
+  height: 17%;
   width: 20%;
+  
   overflow: hidden;
+  
+  z-index: -45;
 }

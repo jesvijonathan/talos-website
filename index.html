@@ -46,33 +46,22 @@ console.log(loading_var);
 
 document.onreadystatechange = function () {
   if (document.readyState == "complete") {
-    document.querySelector(".nloader").style.opcaity = "1";
-    //document.querySelector("body").style.overflowY = "scroll";
-
-    //document.querySelector("#cover-name").style.position = "relative";
-    document.querySelector(".nlder").style.opcaity = "1";
-    //document.querySelector(".loading").style.position = "absolute";
-
-    // var myDiv = document.getElementById("#sec2");
-    // myDiv.innerHTML = variableLongText;
-    // myDiv.scrollTop = 0;
-  } else {
-    document.querySelector(".nloader").style.opacity = "0";
-   // document.querySelector("body").style.overflowY = "hidden";
     
-    //document.querySelector("#cover-name").style.position = "fixed";
+    document.querySelector(".nloader").style.opacity = "0";
     document.querySelector(".nlder").style.opacity = "0";
-    //document.querySelector(".loading").style.position = "fixed";
+
+    document.querySelector(".nlder").style.zIndex = "-45";
+    document.querySelector(".nloader").style.zIndex = "-45";
+  } else {
+    
+    document.querySelector(".nloader").style.opcaity = "1";
+    document.querySelector(".nlder").style.opcaity = "1";
+
+    document.querySelector(".nloader").style.zIndex = "45";
+    document.querySelector(".nlder").style.zIndex = "45";
+
   }
 };
-
-// document.addEventListener("contextmenu", function (e) {
-//   e.preventDefault();
-// });
-// document.addEventListener("contextmenu", function (e) {
-//   e.preventDefault();
-// });
-
   </script>
 
   <header>
