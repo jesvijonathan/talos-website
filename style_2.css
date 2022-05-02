@@ -2052,6 +2052,7 @@ display: none;
   z-index: 45;
   animation: dash 1s;
 }
+
 .path{
     fill: none;
     stroke: white;
