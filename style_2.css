@@ -2055,21 +2055,29 @@ display: none;
 .path{
     fill: none;
     stroke: white;
-    stroke-width: 0.5px;
-    stroke-dashoffset: 11px;
+    stroke-width: 0.7px;
     
-  stroke-dasharray: 0px;
-animation: dash 1.2s 1;
+    stroke-dashoffset: 11px;
+    stroke-dasharray: 0px;
+
+    animation: dash 2s 1 ease-in-out;
+    animation-iteration-count: 1;
 }
  
 
 @keyframes dash {
-  from {
+  0% {
     opacity: 0;
-    stroke-width: 0.5px;
+    stroke-width: 0.7px;
     stroke-dasharray: 11px;
   }
-  to {
+  50%{
+    stroke-dasharray: 7px;
+
+  }
+  70% {
     opacity: 1;
+    
+    stroke-dasharray: 11px;
   }
 }
