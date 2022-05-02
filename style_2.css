@@ -2031,10 +2031,9 @@ display: none;
   height: 100%;
   width: 100%;
   
-  z-index: -45;
-  transition: 0.3s ease-in-out;
-  overflow: hidden;
-  transition: 0.3s ease-in-out;
+  z-index: 45;
+  transition: 0.6s ease-in-out;
+  overflow: hidden; 
 }
 
 .nlder{
@@ -2046,9 +2045,20 @@ display: none;
 
   transition: 0.7s ease-in-out;
   height: 17%;
-  width: 20%;
+  width: fit-content;
   
   overflow: hidden;
   
-  z-index: -45;
+  z-index: 45;
+  animation: dash 1s;
+}
+ 
+
+@keyframes dash {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
