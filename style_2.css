@@ -2075,12 +2075,12 @@ display: none;
     stroke-dasharray: 11px;
   }
   50%{
-    stroke-dasharray: 7px;
+    opacity: 1;
+    stroke-dasharray: 5px;
 
   }
-  70% {
-    opacity: 1;
-    
-    stroke-dasharray: 11px;
+  90% {
+    stroke-dasharray: 9px;
   }
+  
 }
