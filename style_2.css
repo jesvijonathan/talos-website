@@ -2040,7 +2040,7 @@ display: none;
   position: fixed;
   
   left: 50%;
-  top: 50%;
+  top: 57%;
   transform: translate(-50%,-50%);
 
   transition: 0.7s ease-in-out;
@@ -2052,11 +2052,22 @@ display: none;
   z-index: 45;
   animation: dash 1s;
 }
+.path{
+    fill: none;
+    stroke: white;
+    stroke-width: 0.5px;
+    stroke-dashoffset: 11px;
+    
+  stroke-dasharray: 0px;
+animation: dash 1.2s 1;
+}
  
 
 @keyframes dash {
   from {
     opacity: 0;
+    stroke-width: 0.5px;
+    stroke-dasharray: 11px;
   }
   to {
     opacity: 1;
