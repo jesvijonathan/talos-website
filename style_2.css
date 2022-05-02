@@ -2062,6 +2062,8 @@ display: none;
 
     animation: dash 2s 1 ease-in-out;
     animation-iteration-count: 1;
+    
+    opacity: 0;
 }
  
 
