@@ -1904,10 +1904,15 @@ display: none;
   .p2{ 
     top: -4%;
     left: 0%;
-    background-size: 50%;
+    background-size: 60%;
   }
   .p3{
-    top: -4%;
+    top: -5%;
+    left: -3%;
+    /* border-radius: 50%; */
+    
+    border-radius: 100%;
+    background-size: 100%;
   }
   .cenl{
     font-size: 30px;
