@@ -44,6 +44,13 @@ display: inline-flex;
 .b3{
     margin-top:-1vw;margin-bottom:1vw;position: relative;left:0%; transform:translate(0%,0%);z-index:2; padding:1.2vw 4vw 1.2vw 4vw;    right: 0%;text-align:center;margin-left: 0vw;
 }
+
+#logo_id{
+    opacity: 0;
+}
+#loid{
+    opacity: 1;
+}
 @media only screen and (max-width: 769px) {
     .event_main{
         padding: 2vh;
@@ -153,5 +160,11 @@ display: inline-flex;
     height: fit-content;
     margin-top: -8vw;
     margin-bottom: 18vw;
+}
+#logo_id{
+    opacity: 1;
+}
+#loid{
+    opacity: 0;
 }
 }

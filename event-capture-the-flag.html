@@ -354,6 +354,16 @@
   $(document).ready(function(){
     $(this).scrollTop(0);
   });
+
+  window.onscroll = function(ev) {
+    if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) { 
+      document.getElementById("logo_id").style.opacity = "0";
+      document.getElementById("loid").style.opacity = "1"; 
+    }else{
+      document.getElementById("logo_id").style.opacity = "1";
+      document.getElementById("loid").style.opacity = "0"; 
+    }
+  };
   </script>
 
 

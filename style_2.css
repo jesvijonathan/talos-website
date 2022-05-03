@@ -1505,11 +1505,6 @@ display: none;
   background-color:#6969692a;
   overflow: hidden;
 }
-.s2 {
-  min-height: fit-content;
-  height: fit-content;
-  background-color:var(--bkg-colr);
-}
 .dotstyle {
   width: 100%;
   display: flex;
@@ -1518,9 +1513,109 @@ display: none;
   position: absolute;
   bottom: 2vw;
 }
-
+.dotstyle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 4vw;
+}
+.dotstyle ul {
+  display: flex;
+}
+.dotstyle li {
+  position: relative;
+  /* display: block; */
+  cursor: pointer;
+  /* float: left; */
+  margin: 0 0.8vh;
+  width: 1vh;
+  height: 1vh;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+}
+  .active {
+  text-align: center;
+  background-color:var(--fnt-colr);
+  color:var(--bkg-colr);
+}
 .buttnex {
   display: none;
+}
+.buttnex a {
+  color:var(--fnt-colr);
+  font-size: larger;
+  font-weight: 700;
+  transition: 0.2s ease;
+}
+.buttnex a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.prev {
+  position: absolute;
+  left: 0px;
+  margin-left: 5vw;
+  top: 53%;
+}
+.next {
+  position: absolute;
+  right: 0px;
+  margin-right: 5vw;
+
+  top: 53%;
+}
+
+
+.dotstyle-scaleup li.current a {
+  background-color:var(--fnt-colr);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.dotstyle-scaleup li a {
+  -webkit-transition: -webkit-transform 0.3s ease, background-color 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.dotstyle li a {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border-radius: 50%;
+  background-color:var(--fnt-colr);
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid var(--circ);
+  text-indent: -200em;
+  cursor: pointer;
+  position: absolute;
+}
+
+.fade {
+  animation: f 1.4s;
+}
+
+@keyframes f {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.s2 {
+  min-height: fit-content;
+  height: fit-content;
+  background-color:var(--bkg-colr);
+}
+
+
+.buttnex {
+  display: block;
 }
 .buttnex a {
   color: #fff;
@@ -1803,29 +1898,6 @@ display: none;
     padding-bottom: 3vh;
     text-align: center;
   }
-  .dotstyle {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    bottom: 4vw;
-  }
-  .dotstyle li {
-    position: relative;
-    /* display: block; */
-    cursor: pointer;
-    /* float: left; */
-    margin: 0 0.8vh;
-    width: 1vh;
-    height: 1vh;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    align-items: center;
-  }
-
  .locmi {
   display: block;
   }
@@ -1840,11 +1912,8 @@ display: none;
   .locamm h3 {
     padding-bottom: 1em;
   } 
-    .active {
-    text-align: center;
-    background-color: #fff;
-    color: #000000;
-  }
+
+
 
   .yom{
     height: 33px;
