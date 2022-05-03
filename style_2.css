@@ -2228,13 +2228,16 @@ left: 50%;
 top: 75%;
 transform: translate(-50%,-75%);
 color: var(--fnt-colr);
+
+transition: 0.3s ease-in-out;
 }
 .bafte{
 
   font-weight: 100;
   font-size: 1.2vw;
   font-family: "OCRAq";
-  transition: 0.3s ease-in-out;
   color: #b8b8b8b4;
+  
+  transition: 0.3s ease-in-out;
 }
  

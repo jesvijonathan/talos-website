@@ -213,7 +213,7 @@ burger()
   <link rel="preload" as="font" href="./OCRAq.TTF" type="font/TTF" crossorigin="anonymous">
 
   <div class="baff">
-    <a class="bafte" id="quote" data-aos="fade" data-aos-duration="2000" data-aos-delay="2500">Towards Advanced Level Of Science</a>
+    <a class="bafte" id="quote" data-aos="fade" data-aos-duration="2000" data-aos-delay="2500" data-aos-once="true">Towards Advanced Level Of Science</a>
     </div>
  
     
@@ -221,7 +221,7 @@ burger()
     
        
 
-    var text = ["Towards Advanced Level Of Science", "Scroll Down Gently", "From Department Of AI & DS","Website By Jesvi Jonathan"];
+    var text = ["Towards Advanced Level Of Science", "From Department Of AI & DS","National Level Symposium", "Website By Jesvi Jonathan", "Scroll Down Gently.."];
     var counter = 0;
     var elem = document.getElementById("quote");
     var inst = setInterval(change, 7000);
@@ -799,6 +799,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
   
   //document.getElementById("boir").style.display = "none"; 
 
+  
   $(document).scroll(function(){
     var scroll = $(window).scrollTop();
     var a = ((scroll*0.8));
@@ -809,12 +810,17 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
     if (amount > -200){
       $('.main-title').css({opacity:"0"});
+      
+  $('#quote').css({transition:"0.3s ease-in-out"});
+      $('#quote').css({opacity:"0"});
       $('.lines').css({height:"0vw"});
       $('.lines').css({animationPlayState: "running"});
       
     } 
     else{
       $('.main-title').css({opacity:"1"});
+      $('#quote').css({opacity:"1"});
+
       $('.lines').css({opacity:"1"});
       $('.lines').css({height:"70%"}); 
       $('.lines').css({right:"0%"}); 
@@ -840,6 +846,8 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
       $('.deptr').css({transition:"0.5s ease-in-out"}); 
       
       $('.main-title').css({display:"none"});
+      $('#quote').css({display:"none"});
+      
       document.getElementById("logo_id").style.opacity = "1";
       document.getElementById("loid").style.opacity = "0";
       
@@ -849,6 +857,8 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     }
     else{ 
       $('.main-title').css({display:"block"});
+      $('#quote').css({display:"block"});
+      
     }
 
     
