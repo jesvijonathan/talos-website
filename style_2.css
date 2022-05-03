@@ -586,6 +586,16 @@ letter-spacing: 0.2em;
   }
 }
 
+.coon a{
+  border:none;
+  outline:none;
+  text-decoration:none;
+  color:var(--fnt-colr);
+}
+
+.coon li{list-style:circle;
+}
+
 .topic-head {
   color: var(--fnt-colr);
   font-size: 3vw;
@@ -1668,6 +1678,7 @@ display: none;
   
 }
 @media only screen and (max-width: 768px) {
+  
   .thunder{
     min-height: 150px;
     color: var(--fnt-colr);
@@ -1912,7 +1923,7 @@ display: none;
   .locamm h3 {
     padding-bottom: 1em;
   } 
-
+  
 
 
   .yom{
@@ -2122,6 +2133,8 @@ display: none;
   /*  z-index: -20;
     visibility: hidden; */
   }
+  .coon li{list-style:none;
+  }
 }
 
 .logo{
@@ -2189,12 +2202,3 @@ display: none;
   
 }
 
-.coon a{
-  border:none;
-  outline:none;
-  text-decoration:none;
-  color:var(--fnt-colr);
-}
-
-.coon li{list-style:circle;
-}
