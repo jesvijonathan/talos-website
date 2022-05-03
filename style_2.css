@@ -2234,5 +2234,7 @@ color: var(--fnt-colr);
   font-weight: 100;
   font-size: 1.2vw;
   font-family: "OCRAq";
+  transition: 0.3s ease-in-out;
+  color: #b8b8b8b4;
 }
  

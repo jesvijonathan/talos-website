@@ -24,6 +24,7 @@
     rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
   />
+  <script src="./baffle.min.js"></script>
 
   </head>
 
@@ -212,22 +213,41 @@ burger()
   <link rel="preload" as="font" href="./OCRAq.TTF" type="font/TTF" crossorigin="anonymous">
 
   <div class="baff">
-    <!-- <p class="bafte">Towards Advanced Level Of Science</p> -->
+    <a class="bafte" id="quote" data-aos="fade" data-aos-duration="2000" data-aos-delay="2500">Towards Advanced Level Of Science</a>
     </div>
  
     
-  <script src="./baffle.min.js">
-    window.onload = function(){
-    const b = baffle('.bafte');
+  <script> 
+    
+       
 
-      b.set({
-        character: '>▓▒ /█▒</ >▒░>▒ █<░ ░█▒░> ▓░/▒ ▒>░ █<▒▓ ▓▒>░',
-        speed: 10
-      });
+    var text = ["Towards Advanced Level Of Science", "Scroll Down Gently", "From Department Of AI & DS","Website By Jesvi Jonathan"];
+    var counter = 0;
+    var elem = document.getElementById("quote");
+    var inst = setInterval(change, 7000);
       
-      b.start();
-      b.reveal(7000);
-    };
+    
+    
+
+    function change() {
+      elem.innerHTML = text[counter];
+        counter++;
+        const b = baffle('.bafte');
+
+        b.set({
+          character: '>▓▒ /█▒</ >▒░>▒ █<░ ░█▒░> ▓░/▒ ▒>░ █<▒▓ ▓▒>░',
+          speed: 120
+        });
+        
+    b.reveal(3000);
+
+      if (counter >= text.length) {
+        counter = 0;
+      // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+        
+    }
+}
+
   </script>
   
   <div class="main-title" ><a class="bigg clip " data-aos="zoom-out" data-aos-duration="2400" data-aos-delay="1600">  TALOS</a></div>
