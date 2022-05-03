@@ -355,7 +355,24 @@ transform: rotate(90deg);
     color: var( --fnt-colr); 
     
 }
-
+.baff{
+  position: fixed ;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%,-75%);
+  color: var(--fnt-colr);
+  width: fit-content;
+  transition: 0.3s ease-in-out;
+  }
+  .bafte{
+  
+    font-weight: 100;
+    font-size: 1.2vw;
+    font-family: "OCRAq";
+    color: #b8b8b8b4;
+    
+    transition: 0.3s ease-in-out;
+  }
 
 .svg3 {
     height: 3.2em;
@@ -1941,7 +1958,12 @@ display: none;
     padding-bottom: 1em;
   } 
   
-
+    .bafte{
+    
+      font-weight: 100;
+      font-size: 0.8em;
+      transition: 0.3s ease-in-out;
+    }
 
   .yom{
     height: 33px;
@@ -2222,22 +2244,5 @@ display: none;
 
 
 
-.baff{
-position: fixed ;
-left: 50%;
-top: 75%;
-transform: translate(-50%,-75%);
-color: var(--fnt-colr);
 
-transition: 0.3s ease-in-out;
-}
-.bafte{
-
-  font-weight: 100;
-  font-size: 1.2vw;
-  font-family: "OCRAq";
-  color: #b8b8b8b4;
-  
-  transition: 0.3s ease-in-out;
-}
  
