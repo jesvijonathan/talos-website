@@ -95,8 +95,7 @@ burger()
 }
           });
 
-            function burger() {
-            console.log("Asdadadsaskdnaknakdankasmndkasndkamnd")
+            function burger() { 
             
             var myElement = document.querySelector("#burger_menu");
 
@@ -839,21 +838,12 @@ $(document).ready(function(){
     
     document.getElementById("blurbg").style.display = "none";
     $('.blurbg').css({zindex:"-15"});
+    $('.boir').hide(0);
 
-    var myElement = document.querySelector("#burger_menu");
-
-    var myCover = document.querySelector("#cover");
-    var myinvi = document.querySelector("#invi")
-
-    myElement.classList.remove("open");
-    myCover.classList.remove("cover-open");
-    myinvi.classList.remove("invi-open");
-
-    
-      myCover.classList.remove("up");         
-      $('.boir').hide(0);
-      document.getElementById("blurbg").style.display = "none";
-      $('.blurbg').css({zindex:"-15"});
+      document.querySelector("#burger_menu").classList.remove("open");
+      document.querySelector("#cover").classList.remove("cover-open");
+      document.querySelector("#invi").classList.remove("invi-open");
+      document.querySelector("#boir").classList.remove("up");
     } 
 
 
@@ -931,22 +921,15 @@ $(document).ready(function(){
                 $('#reg_Reg').attr('href', re); 
 
             if (myCover.classList.contains("up")) {
-              myCover.classList.remove("up"); 
-              
-            $('.boir').hide(0);
-
-            
+              myCover.classList.remove("up");  
+              $('.boir').hide(0); 
               document.getElementById("blurbg").style.display = "none";
               $('.blurbg').css({zindex:"-15"});
             } else {
-              myCover.classList.add("up");
-            
-
-              $('.boir').css({zindex:"20"}); 
-
+              myCover.classList.add("up"); 
+              $('.boir').css({zindex:"20"});  
               $('.boir').show(0);
-              $('.boir').css({visibility:"visible"}); 
-
+              $('.boir').css({visibility:"visible"});  
               document.getElementById("blurbg").style.display = "block";
               document.getElementById("blurbg").style.zIndex = "5";
             }}

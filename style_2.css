@@ -1537,10 +1537,10 @@ display: none;
   top: 53%;
 }
 .fade {
-  animation: fade 1.4s;
+  animation: fad 1.4s;
 }
 
-@keyframes fade {
+@keyframes fad {
   from {
     opacity: 0;
   }
