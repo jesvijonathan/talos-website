@@ -650,6 +650,7 @@ letter-spacing: 0.2em;
 }
 .p1 {
   background-image: url("./CIT Logo White (2).png");
+  /* background-image: url("./CIT\ Logo\ \(Actual\)\ PNG\ Format.png"); */
 background-position: center;
 background-size: contain;background-repeat: no-repeat;
 background-size: 60%;
@@ -676,10 +677,17 @@ background-size: 60%;
       left: -3%; */
   }
 .p3 {
-  background-image: url("./boy.png");
+  /* background-image: url("./boy.png");
   border-radius: 100%;
   top: -21%;
-  left: -3%;
+  left: -3%; */
+  background-image: url("./photoroom (13).webp");
+  background-position: center;
+  background-size: contain;background-repeat: no-repeat;
+  background-size: 120%;
+    border-radius:  100%;
+    top: -20%;
+    left:-1%; transform: scaleX(-1);
 }
 
 .container {
@@ -2082,5 +2090,22 @@ display: none;
   90% {
     stroke-dasharray: 9px;
   }
+  
+}
+
+.thunder{
+  min-height: 150px;
+  color: var(--fnt-colr);
+  width: 100%;
+  text-align: center;
+  height: 150px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500px;
+    font-size: 1.7vw;
+    border-top: 1px solid rgba(63, 63, 63, 0.7);
+
   
 }
