@@ -2189,3 +2189,9 @@ display: none;
   
 }
 
+.coon a{
+  border:none;
+  outline:none;
+  text-decoration:none;
+  color:var(--fnt-colr);
+}
