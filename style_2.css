@@ -28,6 +28,11 @@
   
   --circ: rgba(102, 102, 102, 0.4);
 }
+@font-face {
+
+  font-family: "OCRAq";
+  src: url("./OCRAq.TTF") format("opentype");
+}
 
 
 * {
@@ -41,6 +46,7 @@
     background-color: var(--bkg-colr);
     height: 100%;
     transition: 0.3s ease-in-out;
+    /* font-family: "OCRAq"; */
   }
   html {
     height: 100%;
@@ -2214,3 +2220,19 @@ display: none;
   
 }
 
+
+
+.baff{
+position: fixed ;
+left: 50%;
+top: 75%;
+transform: translate(-50%,-75%);
+color: var(--fnt-colr);
+}
+.bafte{
+
+  font-weight: 100;
+  font-size: 1.2vw;
+  font-family: "OCRAq";
+}
+ 
