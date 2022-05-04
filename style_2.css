@@ -701,11 +701,11 @@ background-size: 60%;
 }
 .p2 {
   
-    /* background-image: url("./t.webp"); 
-    left: 3%;*/
+    background-image: url("./t.webp"); 
+    left: 3%;
     
-  background-image: url("./Group 25.png");
-  left: 0%;
+  /* background-image: url("./Group 25.png");
+  left: 0%; */
 
   background-position: center;
   background-size: contain;background-repeat: no-repeat;

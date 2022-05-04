@@ -436,7 +436,7 @@ burger()
               <h1>Tune Surfing</h1>
               <p>
                 This is a song guessing game/event by actions. A team of three members are involved, one should wear a headset, the other members have to give gestures to the main player for the particular song. He/She has to guess the song correctly by following the gestures within a minute. For each correct answer.Points will be awarded & team that scores the highest will be the winner.</p>
-              <button><a>
+              <button id="ev6" onClick="reg_view(this.id)"><a>
                 More</a>
               </button>
           </div>
@@ -453,7 +453,7 @@ burger()
               <p>
                 Utilize your photographic abilities to transform fleeting moments into something peculiar, thrilling, and captivating. Don't let this opportunity pass you by; seize it. Pick a camera , click an image & freeze the moment.
               </p>
-              <button><a>
+              <button id="ev7" onClick="reg_view(this.id)"><a>
                 More</a>
               </button>
           </div>
@@ -471,7 +471,7 @@ burger()
               Ahoy ! Gather and hunt down the astounding treasures. The time has come! Let's see if you've really got what it takes to hunt 'em down. The skills you hold leads you to the treasure untold. But Beware, you aren't the only one hunting. 
               Not all the treasure is silver and gold mate!           
             </p>
-            <button><a>
+            <button id="ev8" onClick="reg_view(this.id)"><a>
                 More</a>
             </button>
         </div>
@@ -487,7 +487,7 @@ burger()
               <h1>Mystic Touch</h1>
               <p>
                 Explore new adventures, reach heights and break records using Artificial Intelligence. Mystic Touch is the game of fun based on computer vision where you handle the game completely using your hand gestures. Talos welcomes you to the new era of gaming. Register to join the fun!</p>
-              <button><a>
+              <button id="ev9" onClick="reg_view(this.id)"><a>
                 More</a>
               </button>
           </div>
@@ -506,7 +506,7 @@ burger()
                 <p>
                   Get your mobiles ready to enter the world of entertainment with stumble guys <b>game</b>. Showcase your unspoken skills to place your mark in the event.
                 </p>
-                <button><a>
+                <button id="ev10" onClick="reg_view(this.id)"><a>
                   More</a>
                 </button>
             </div>
@@ -525,7 +525,7 @@ burger()
                     <p>
                     A workshop showcasing Artificial Intelligence & Data Science in real time use case scenarios, opening an oppurtunity to learn from a practical point of view. 
                     </p>
-                    <button><a>
+                    <button id="ev11" onClick="reg_view(this.id)"><a>
                       More</a>
                     </button>
                 </div>
@@ -565,7 +565,7 @@ burger()
 <input type="text" value="https://jesvijonathan.github.io/talos-website" id="myInput" style="display: none;">
 
 
-<a class="b3" id="reg_Reg" href="" target="_blank">Register</a>
+<a class="b3" id="reg_reg" href="taloscit.ml" target="_blank">Register</a>
 
  </div>
 </div>
@@ -979,13 +979,13 @@ $(document).ready(function(){
             switch (clicked_id){
               case "ev1":
                 window.open("https://jesvijonathan.github.io/talos-website/event-designo-lit-o", "_blank");break;
-                case "ev2":
+              case "ev2":
                 window.open("https://jesvijonathan.github.io/talos-website/event-capture-the-flag", "_blank");break;
-                case "ev3":
+              case "ev3":
                 window.open("https://jesvijonathan.github.io/talos-website/event-certitude", "_blank");break;
-                case "ev4":
+              case "ev4":
                 window.open("https://jesvijonathan.github.io/talos-website/event-codoput", "_blank");break;
-                case "ev5":
+              case "ev5":
                 window.open("https://jesvijonathan.github.io/talos-website/event-dazibao", "_blank");break;
             }}
             
@@ -1044,6 +1044,61 @@ $(document).ready(function(){
                   co = "tel:+919080463539"; //bharani
                   //po = "";
                   break; 
+
+                case "ev6":
+                  de ="This is a song guessing game/event by actions. A team of three members are involved, one should wear a headset, the other members have to give gestures to the main player for the particular song. He/She has to guess the song correctly by following the gestures within a minute. For each correct answer.Points will be awarded & team that scores the highest will be the winner.";
+                  ti = "TUNE SURFING";
+                  ca = "Regret Speaking";
+                  ru = "<li>● Each team should consist of three players. Three songs will be given to each team.</li>    <li>● Every team will have 1 minute to guess each song.</li>   <li>● Participants are not allowed to use any lip movements. If this is not followed negative points will be given.</li>   <li>● A single team member can wear the headset the entire round or it can be swapped among the team members for each song.</li> <li>● Only registered teams can participate.</li>";
+                  re = "https://forms.gle/EJr4r5uBn2GAzDde9";
+                  co = "tel:+919014401220"; //supri
+                  //po = "";
+                  break; 
+                case "ev7":
+                  de = "Utilize your photographic abilities to transform fleeting moments into something peculiar, thrilling, and captivating. Don't let this opportunity pass you by; seize it. Pick a camera , click an image & freeze the moment.";
+                  ti = "CAPTURRA";
+                  ca = "It's all in the click";
+                  ru = "<li>● It is an individual online event & Participants are bound to follow our Instagram page.</li>   <li>● Participants can either use their mobile phones or DSLR cameras to take photograph.</li>    <li>● 4.	Competitors should post their photo in Instagram story and tag our official page.</li>   <li>● 5.	Participants should submit their photograph in  document format in the provided google form  </li>   <li>● 6.	Photo cropping and basic editing are permissible, 7.	The finalists will be chosen based on the decision of the jury members and cash prize will be rewarded.</li>";
+                  re = "https://forms.gle/ivyTvW2dUWtnXp1g6";
+                  co = "tel:+916380340156"; //M Sweth
+                  //po = "";
+                  break; 
+                case "ev8":
+                  de ="Ahoy ! Gather and hunt down the astounding treasures. The time has come! Let's see if you've really got what it takes to hunt 'em down. The skills you hold leads you to the treasure untold. But Beware, you aren't the only one hunting. Not all the treasure is silver and gold mate !";
+                  ti = "HUNTERS & GATHERERS";
+                  ca = "Start The Hunt";
+                  ru = "<li>●	Each team can have a maximum of five members.</li>   <li>●	Teams should finish the hunt within the given time limit</li>    <li>●	Participants of the same team should stick together until the hunt is over</li>   <li>●	The hunt is only within the campus & All the clues must be gathered inorder to finish the hunt</li>   <li>● Each team must carry only one phone to capture the clues when found, The first team with all the clues wins the hunt</li> <li>Any team getting into foul play would be immediately disqualified</li>";
+                  re = "https://forms.gle/rn9NH2Dhx22GtDTY7";
+                  co = "tel:+917338828033"; //Gaya
+                  //po = "";
+                  break; 
+                case "ev9":
+                  de ="Explore new adventures, reach heights and break records using Artificial Intelligence. Mystic Touch is the game of fun based on computer vision where you handle the game completely using your hand gestures. Talos welcomes you to the new era of gaming. Register to join the fun !";
+                  ti = "MYSTIC TOUCH";
+                  ca = "Computer Vision Game";
+                  ru = "<li>● It's a single-player game, Hand gestures are used to control the game.</li>   <li>● Each player has one chance(life) with a trial gameplay, Each participant will be given a one-minute time limit.</li>    <li>● Before the game begins, the demo will be shown</li>   <li>● he sequence in which the participants play will be choosen on a lottery based system.</li>   <li>● The primary criteria for choosing the winner is the distance travelled.</li>";
+                  re = "https://forms.gle/VaNhap7fBP9psR7j6";
+                  co = "tel:+918838010007"; //vinu balan
+                  //po = "";
+                  break; 
+                case "ev10":
+                  de =" Get your mobiles ready to enter the world of entertainment with stumble guys <b>game</b>. Showcase your unspoken skills to place your mark in the event.";
+                  ti = "STUMBLE GUYS TOURNAMENT";
+                  ca = "Win It Your Way";
+                  ru = "<li>● </li>   <li>● </li>    <li>● </li>   <li>● </li>   <li>● </li>";
+                  re = "https://forms.gle/axu2dpMm7qe9RpaD6";
+                  co = "tel:+919944285765"; //  GOKHUL
+                  //po = "";
+                  break; 
+                case "ev11":
+                  de = "A workshop showcasing Artificial Intelligence & Data Science in real time use case scenarios, opening an oppurtunity to learn from a practical point of view. ";
+                  ti = "Workshop";
+                  ca = "Learn Mor";
+                  ru = "<li>● </li>   <li>● </li>    <li>● </li>   <li>● </li>   <li>● </li> <li>● </li>";
+                  re = "taloscit.ml";
+                  co = "tel:+919080463539"; //dinuroop
+                  //po = "";
+                  break; 
                 }
 
 
@@ -1051,7 +1106,7 @@ $(document).ready(function(){
                 document.getElementById('reg_ti').innerHTML = ti;
                 document.getElementById('reg_slog').innerHTML = ca;
                 document.getElementById('reg_rules').innerHTML = ru;
-                $('#reg_reg').attr('href', re); 
+                $('#reg_reg').attr('href', re);
                 $('#reg_con').attr('href', co); 
                 //$('#reg_po').attr('href', po); 
 
