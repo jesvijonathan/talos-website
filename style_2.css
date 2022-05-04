@@ -202,7 +202,7 @@ flex-direction: column;
   transition: 0.2s ease;
 }
 .clip{
-  background: url(./resource/ezgif-3-dc31446737.webp);
+  background: url(./ezgif-3-dc31446737.webp);
 /* background: url(./resource/ezgif-3-59312ad44b.webp); */
 -webkit-background-clip: text;
 background-repeat: no-repeat;
