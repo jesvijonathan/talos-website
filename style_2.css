@@ -2246,24 +2246,24 @@ display: none;
 
 
 .collapsible {
-  background-color: rgba(119, 119, 119, 0);
-  color: white;
+  background-color:var(--bkg-colr);
+  color:var(--fnt-colr);
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
-  text-align: left;
+  text-align: center;
   outline: none;
   font-size: 30px;
 }
 
 .active,
 .collapsible:hover {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(114, 114, 114, 0.2);
 }
 .active,
 .collapsible {
-  background-color: rgba(255, 255, 255, 0);
+  background-color:var(--bkg-colr);
 }
 .collapsible:after {
   content: "\002B";
@@ -2271,7 +2271,7 @@ display: none;
   font-weight: bold;
   float: right;
   margin-left: 5px;
-  background-color: rgba(255, 255, 255, 0);
+  background-color:transparent;
 }
 
 .active:after {
@@ -2282,7 +2282,7 @@ display: none;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f100;
+  background-color:var(--bkg-colr);
 }
 
 .sermm {
