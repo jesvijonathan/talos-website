@@ -2245,4 +2245,47 @@ display: none;
 
 
 
- 
+.collapsible {
+  background-color: rgba(119, 119, 119, 0);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+  display: none;
+}
+
+.active,
+.collapsible:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+.active,
+.collapsible {
+  background-color: rgba(255, 255, 255, 0);
+}
+.collapsible:after {
+  content: "\002B";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.active:after {
+  content: "\2212";
+}
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f100;
+}
+
+.sermm {
+  padding: 2vw;
+}
