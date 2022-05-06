@@ -241,6 +241,21 @@ burger()
    </div>
       <a class="b3" href="https://forms.gle/MNWcZqXfTJ7XUAmc6" target="_blank" >Register</a>
   </div>
+
+  <script>
+    function copyTextFromElement() {
+      //let element = document.getElementById(elementID); //select the element
+      var copyTex = window.location.href;
+      copyText(copyTex); //use the copyText function below
+      alert('Copied Shareable Event Link !');
+    }
+    
+    //If you only want to put some Text in the Clipboard just use this function
+    // and pass the string to copied as the argument.
+    function copyText(text) {
+      navigator.clipboard.writeText(text);
+    }
+  </script>
 </section>
 
 
