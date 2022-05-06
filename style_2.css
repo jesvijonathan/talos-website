@@ -2308,3 +2308,11 @@ display: none;
   height: 17vw;
   width: 17vw;
 }
+
+.spon_n{
+  padding-top: 1.4vw;
+  bottom: 0%; 
+    text-align: center;
+    color: white;
+    font-size: 1.5vw;
+}
