@@ -2259,7 +2259,7 @@ display: none;
 
 .active,
 .collapsible:hover {
-  background-color: rgba(114, 114, 114, 0.2);
+  background-color: rgba(114, 114, 114, 0.1);
 }
 .active,
 .collapsible {
@@ -2279,12 +2279,29 @@ display: none;
 }
 .content {
   padding: 0 18px;
+  padding-top: 5vw;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color:var(--bkg-colr);
+
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .sermm {
   padding: 2vw;
+}
+
+.spon{
+  height: max-content;
+}
+.spon_m{
+  height: 20vw;
+  width: 20vw;
 }
