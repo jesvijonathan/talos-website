@@ -210,14 +210,42 @@ burger()
 
   <div class="baff">
     <a class="bafte" id="quote" data-aos="fade" data-aos-duration="2000" data-aos-delay="2500" data-aos-once="true">Towards Advanced Level Of Science</a>
-    </div>
+
+  </div>
  
     
   <script> 
+    var countDownDate = new Date("May 26, 2022 00:00:00").getTime();
+    var ctt = "-- none --"
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+    
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+    
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    
+      // Display the result in the element with id="demo"
+      ctt = "<b>"+ days + "days " + hours + "hrs "
+      + minutes + "mins</b> Left";
+    
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        ctt = "The Event Was Grand !";
+      }
+    }, 20000);
     
        
 //special tx to baffle, i could have not hardcoded this animation in last moment 
-    var text = ["From Department Of AI & DS", "National Level Symposium", "Scroll Down Gently", "Website By Jesvi Jonathan", "Towards Advanced Level Of Science"];
+    var text = ["From Department Of AI & DS", "National Level Symposium", "", "Scroll Down Gently", "Website By Jesvi Jonathan", "Towards Advanced Level Of Science"];
     var counter = 0;
     var elem = document.getElementById("quote");
     var inst = setInterval(change, 7000);
@@ -226,7 +254,12 @@ burger()
     
 
     function change() {
-      elem.innerHTML = text[counter];
+      if (counter == 2){
+        elem.innerHTML = ctt;
+      }
+      else{
+        elem.innerHTML = text[counter];
+      }
         counter++;
         const b = baffle('.bafte');
 
@@ -603,10 +636,10 @@ burger()
         <h3>Phone :</h3>
         <div class="locmi coon"> 
           <ul>
-          <li><a href="tel:+919849770286" target="_blank">Ponduru Dinuroop (President)</a></li>
-          <li><a href="tel:+919150612359" target="_blank">Yuva Daranee (Vice President)</a></li>
-          <li><a href="tel:+919003633318" target="_blank">Kamal Roshan (Event Co-ordinator)</a></li>
-          <li><a href="tel:+919384485985" target="_blank">Dhanya Babu (Secretary)</a></li>
+          <li><a href="tel:+919849770286" target="_blank">Ponduru Dinuroop (President | +919849770286) </a></li>
+          <li><a href="tel:+919150612359" target="_blank">Yuva Daranee (Vice President | +919150612359")</a></li>
+          <li><a href="tel:+919003633318" target="_blank">Kamal Roshan (Event Co-ordinator | +919003633318)</a></li>
+          <li><a href="tel:+919384485985" target="_blank">Dhanya Babu (Secretary | +919384485985)</a></li>
           <!-- dhanya 9384485985 | yuva 9150612359
           <br>-->
           <li><a href="tel:100" target="_blank">Jesvi Jonathan (<b>Developer 🤖</b>)</a></li>
