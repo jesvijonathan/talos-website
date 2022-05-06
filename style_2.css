@@ -2202,7 +2202,7 @@ display: none;
 
   transition: 0.7s ease-in-out;
   height: 17%;
-  width: fit-content;
+  width: max-content;
   
   overflow: hidden;
   
