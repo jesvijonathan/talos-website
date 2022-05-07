@@ -634,6 +634,7 @@ letter-spacing: 0.2em;
   height: max-content;
   
   padding-bottom: 5vw;
+  padding-top: 4vw;
 }
 .spon_m{
   height: 17vw;
@@ -1798,7 +1799,7 @@ display: none;
 }
 .content {
   padding: 0 18px;
-  padding-top: 5vw;
+  padding-top: 4vw;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -1819,6 +1820,9 @@ display: none;
 }
 
 @media only screen and (max-width: 768px) {
+  .content{
+
+  }
   
   .thunder{
     min-height: 150px;
