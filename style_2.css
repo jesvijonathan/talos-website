@@ -1762,8 +1762,8 @@ display: none;
 }
 
 .collapsible {
-  background-color:var(--fnt-colr);
-  color:var(--bkg-colr);
+  background-color:var(--bkg-colr);
+  color:var(--fnt-colr);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -1772,6 +1772,8 @@ display: none;
   outline: none;
   font-size: 3vw;
   font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s ease-in-out;
 }
 
 
@@ -1784,6 +1786,7 @@ display: none;
   float: right;
   margin-left: 5px;
   background-color:transparent;
+  transition: 0.3s ease-in-out;
 }
 
 .collapsible .active:after {
@@ -1806,16 +1809,11 @@ display: none;
     /* align-items: center; */
     width: 100%;
     justify-content: space-evenly;
+    transition: 0.3s ease-in-out;
 }
 .collapsible.active,
 .collapsible:hover {
-  background-color:var(--fnt-colr);
-  color:var(--bkg-colr);
-}
-.collapsible.active,
-.collapsible {
-  background-color:var(--bkg-colr);
-  color:var(--fnt-colr);
+  border-bottom: 2px solid rgba(161, 161, 161, 0.37);
 }
 
 @media only screen and (max-width: 768px) {
