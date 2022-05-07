@@ -90,7 +90,10 @@
 
 <div class="cred_con">
 
-    <div class="mcre">Credits</div>
+    <div class="mcre">Credits
+        
+    <div class="crenig" style="font-weight: 100; ">( Students )</div>
+    </div>
 
     <div class="connn1">
         <span class="ai1">Jesvi Jonathan</span>
@@ -152,6 +155,9 @@
           setTimeout(() => { 
               
           $('.mcre').css({opacity: "1"});
+          $('.crenig').css({opacity: "1"});
+          
+          $('.mcre').css({textAlign: "center"});
           }, 6000);
 
 
@@ -161,7 +167,14 @@
             
             $('.ai2').css({opacity: "1"});
             }, 6700);
-          
+
+            var counter = 10;
+            var myFunction = function() {
+                counter *= 10;
+                setTimeout(myFunction, counter);
+            }
+            setTimeout(myFunction, counter);
+
     </script>
 
 
