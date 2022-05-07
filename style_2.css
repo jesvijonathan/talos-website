@@ -626,6 +626,55 @@ letter-spacing: 0.2em;
 
 
 
+.sermm {
+  padding: 2vw;
+}
+
+.spon{
+  height: max-content;
+  
+  padding-bottom: 5vw;
+}
+.spon_m{
+  height: 17vw;
+  width: 17vw;
+}
+
+.spon_n{
+  padding-top: 1.4vw;
+  bottom: 0%; 
+    text-align: center;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.credb{
+  background-color:var(--bkg-colr);
+  color:var(--fnt-colr);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 3vw;
+  font-weight: 500;
+  width: 100%;
+  left: 0;
+  height:100%
+  
+}
+
+.crec{
+  width: 100%;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
 .topic-head {
   color: var(--fnt-colr);
   font-size: 3vw;
@@ -1711,6 +1760,64 @@ display: none;
 
   
 }
+
+.collapsible {
+  background-color:var(--fnt-colr);
+  color:var(--bkg-colr);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+
+.collapsible:after {
+  content: "\002B";
+  
+  background-color:var(--bkg-colr);
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  background-color:transparent;
+}
+
+.collapsible .active:after {
+  content: "\2212";
+  
+  color: white;
+}
+.content {
+  padding: 0 18px;
+  padding-top: 5vw;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color:var(--bkg-colr);
+
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    justify-content: space-evenly;
+}
+.collapsible.active,
+.collapsible:hover {
+  background-color:var(--fnt-colr);
+  color:var(--bkg-colr);
+}
+.collapsible.active,
+.collapsible {
+  background-color:var(--bkg-colr);
+  color:var(--fnt-colr);
+}
+
 @media only screen and (max-width: 768px) {
   
   .thunder{
@@ -2175,6 +2282,13 @@ display: none;
   .coon li{
     list-style: none;
   }
+  .credb{
+    font-size: 33px;
+  }
+  .collapsible{
+    font-size: 33px;
+
+  }
 }
 
 .logo{
@@ -2239,106 +2353,11 @@ display: none;
   90% {
     stroke-dasharray: 9px;
   }
+ 
   
 }
 
 
 
 
-.collapsible {
-  background-color:var(--bkg-colr);
-  color:var(--fnt-colr);
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 3vw;
-  font-weight: 500;
-}
 
-.active,
-.collapsible:hover {
-  background-color: rgba(114, 114, 114, 0.1);
-}
-.active,
-.collapsible {
-  background-color:var(--bkg-colr);
-}
-.collapsible:after {
-  content: "\002B";
-  color: white;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-  background-color:transparent;
-}
-
-.active:after {
-  content: "\2212";
-}
-.content {
-  padding: 0 18px;
-  padding-top: 5vw;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color:var(--bkg-colr);
-
-  display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: space-between;
-    /* align-items: center; */
-    width: 100%;
-    justify-content: space-evenly;
-}
-
-.sermm {
-  padding: 2vw;
-}
-
-.spon{
-  height: max-content;
-  
-  padding-bottom: 5vw;
-}
-.spon_m{
-  height: 17vw;
-  width: 17vw;
-}
-
-.spon_n{
-  padding-top: 1.4vw;
-  bottom: 0%; 
-    text-align: center;
-    color: white;
-    font-size: 1.5vw;
-}
-
-.credb{
-  background-color:var(--bkg-colr);
-  color:var(--fnt-colr);
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 3vw;
-  font-weight: 500;
-  width: 100%;
-  left: 0;
-  height:100%
-}
-
-.crec{
-  width: 100%;
-    display: flex;    
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
