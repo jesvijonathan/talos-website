@@ -1792,9 +1792,8 @@ display: none;
   transition: 0.3s ease-in-out;
 }
 
-.collapsible .active:after {
+.active:after {
   content: "\2212";
-  
   color: white;
 }
 .content {
