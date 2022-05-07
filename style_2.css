@@ -1838,11 +1838,12 @@ display: none;
 
   }
   .spon_m{
-    height: 17rem;
-    width: 17rem;
+    height: 12rem;
+    width: 12rem;
   }
   .spon_n{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    padding-top: 2.4vw;
   }
   
   .thunder{
@@ -2390,3 +2391,14 @@ display: none;
 
 
 
+.dead_body{
+background-color: #000000;
+color: white;
+}
+
+.cred_con{
+  margin: 10%;
+  font-weight: 100;
+    font-size: 1.2vw;
+    font-family: "OCRAq";
+}
