@@ -1838,11 +1838,11 @@ display: none;
 
   }
   .spon_m{
-    height: 12rem;
-    width: 12rem;
+    height: 10rem;
+    width: 10rem;
   }
   .spon_n{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-top: 2.4vw;
   }
   
@@ -2397,8 +2397,71 @@ color: white;
 }
 
 .cred_con{
-  margin: 10%;
   font-weight: 100;
     font-size: 1.2vw;
     font-family: "OCRAq";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding-right: 10%;
+    padding-left: 10%;
+    /* padding-top: 10%; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.connn1{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.connn2{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+.ai2{
+  margin-top: 3px;
+  opacity: 0;
+  
+  transition: 0.7s ease-in-out;
+}
+.ai1{
+  margin-top: 3px;
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+
+.mcre{
+  font: 150%;
+  font-weight: 800;
+
+  position: fixed;
+  font-size: 200%;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  transition: 1s ease-in-out;
+}
+
+@keyframes credits {
+  0% {
+  top: 100%;
+  }
+  100% {
+  top: -3600%;
+  }
+  }
