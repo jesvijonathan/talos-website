@@ -2473,3 +2473,28 @@ color: white;
   top: -3600%;
   }
   }
+
+.block{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  color: #fff;
+display: block;
+z-index: 99;
+
+font-weight: 100;
+font-size: 1.2vw;
+font-family: "OCRAq";
+text-align: center;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+.erp{
+  
+  position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
