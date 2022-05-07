@@ -1821,7 +1821,28 @@ display: none;
 
 @media only screen and (max-width: 768px) {
   .content{
+    padding: 0 18px;
+    padding-top: 4vw;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: var(--bkg-colr);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    transition: 0.3s ease-in-out;
 
+  }
+  .spon_m{
+    height: 17rem;
+    width: 17rem;
+  }
+  .spon_n{
+    font-size: 1.4rem;
   }
   
   .thunder{
