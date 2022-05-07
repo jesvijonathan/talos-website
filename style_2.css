@@ -2316,3 +2316,29 @@ display: none;
     color: white;
     font-size: 1.5vw;
 }
+
+.credb{
+  background-color:var(--bkg-colr);
+  color:var(--fnt-colr);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 3vw;
+  font-weight: 500;
+  width: 100%;
+  left: 0;
+  height:100%
+}
+
+.crec{
+  width: 100%;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
