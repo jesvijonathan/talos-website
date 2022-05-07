@@ -657,12 +657,15 @@ letter-spacing: 0.2em;
   border: none;
   text-align: center;
   outline: none;
-  font-size: 3vw;
+  font-size: 2.8vw;
   font-weight: 500;
   width: 100%;
   left: 0;
   height:100%
   
+}
+.nii{
+  background-color: var(--bkg-colr) ;
 }
 
 .crec{
@@ -673,6 +676,7 @@ letter-spacing: 0.2em;
     align-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
+    padding: 4vw;
 }
 
 .topic-head {
@@ -1757,7 +1761,6 @@ display: none;
     font-weight: 500px;
     font-size: 1.7vw;
     border-top: 1px solid rgba(63, 63, 63, 0.7);
-
   
 }
 
@@ -1770,7 +1773,7 @@ display: none;
   border: none;
   text-align: center;
   outline: none;
-  font-size: 3vw;
+  font-size: 2.8vw;
   font-weight: 500;
   border-bottom: 2px solid transparent;
   transition: 0.3s ease-in-out;
@@ -1813,7 +1816,7 @@ display: none;
 }
 .collapsible.active,
 .collapsible:hover {
-  border-bottom: 2px solid rgba(161, 161, 161, 0.37);
+  border-bottom: 2px solid rgba(161, 161, 161, 0);
 }
 
 @media only screen and (max-width: 768px) {
@@ -2286,6 +2289,10 @@ display: none;
   .collapsible{
     font-size: 28px;
 
+  }
+  .crec{
+    
+    padding: 3rem;
   }
 }
 
