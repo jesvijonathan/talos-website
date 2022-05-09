@@ -38,8 +38,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="./style_2.css" />
-    
-    <link rel="stylesheet" href="./style_credit.css" />
+     
     
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -94,34 +93,221 @@
 
     <div class="mcre">Credits
         
-    <div class="crenig" style="font-weight: 100; ">( Students )</div>
+    <div class="crenig" id="nig" style="font-weight: 100; ">( Faculty )</div>
     </div>
 
-    <div class="connn1">
-        <span class="ai1">Jesvi Jonathan</span>
-    <span class="ai1">Vinu Balan</span>
-    <span class="ai1">Maurus Maria</span>
-    <span class="ai1">Rithin Meeran</span>
-    <span class="ai1">Vinu</span>
-    <span class="ai1">John</span>
+    <div class="connn1" id="a1">
+    <span class="ai1" id="c0">Jesvi Jonathan</span>
+    <span class="ai1" id="c1">Vinu Balan</span>
+    <span class="ai1" id="c2">MAURUS MARIA RUBENSON</span>
+    <span class="ai1" id="c3">Rithin Meeran</span>
+    <span class="ai1" id="c4">Vinu</span>
+    <span class="ai1" id="c5">John</span>
     </div>
 
-    <div class="connn2">
-        <span class="ai1">Harshad Kumar</span>
-    <span class="ai2">Kamal Roshan</span>
-    <span class="ai2">Bharath Rajiv</span>
-    <span class="ai2">Saravanan</span>
-    <span class="ai2">Vinu</span>
-    <span class="ai2">John</span>
+    <div class="connn2" id="a2">
+    <span class="ai2" id="cc0">Harshad Kumar</span>
+    <span class="ai2" id="cc1">Kamal Roshan</span>
+    <span class="ai2" id="cc2">Bharath Rajiv</span>
+    <span class="ai2" id="cc3">Saravanan</span>
+    <span class="ai2" id="cc4">Vinu</span>
+    <span class="ai2" id="cc5">John</span>
+    </div>
+
+    <div class="content" id="sp" style="display:none;    background-color: #4a4a4a00;width: fit-content;">
+
+      <a class="spon" id="spoo" href="" target="_blank">
+        <img class="spon_m" src="./download (1).webp">
+      </a>
+
+      <a class="spon" href="" target="_blank">
+        <img class="spon_m" src="./357742-hyundai-logo-twitter.webp">
+      </a>
+      <a class="spon" href="" target="_blank">
+        <img class="spon_m" src="./download.webp">
+      </a>
+
     </div>
 
 </div>
     
+<div class="block" id="blockl" style="z-index: 9;"><div class="erp">Thank You</div></div>
 </body>
 
     </html>
 
     <script>
+      const secound_year = [
+"ASHWIN KUMAR A",
+"P AATHAN VALAVAN",
+"ABHISREE S",
+"A S AKSHARA",
+"A K SUPRIYA",
+"ARUN KUMAR S",
+"ARUN PANDIYAN S",
+"ARVINDH KUMAR K",
+"ASWIN R B",
+"AATHARSH",
+"BALAYUKESH B",
+"BHARATH RAJIV A",
+"BHUVANESHWARAN S",
+"BOOMIRAJAN S",
+"DHANYA BABU",
+"GAYATHRI K S",
+"GOKHULRAJ S",
+"GOPHIGAA S",
+"HARIDEV K A GANDHI",
+"HARIHARAN T",
+"HARISH P",
+"HARSHAD KUMAR H",
+"HARSHAVARDHAN R",
+"HASHIM HAYATH BASHA",
+"JUVANA EVANJALIN JOSEPH B",
+"KAMAL ROSHAN T S",
+"KARTHIKEYAN K",
+"KARUPPAIAH PARAMESWARAN A",
+"KASTURI RENGAN R",
+"KAVIN KUMAR S",
+"KISHORE V S",
+"MADHUSHREE T",
+"MARIMUTHU MADHANA LAXMI",
+"S MARWA PARVEEN",
+"NIDHISRI R S",
+"NITHYA A",
+"PONDHURU SAIGANESH",
+"PONDURU DINUROOP",
+"POTHURU SRI SAI YASWANTH",
+"PRIYADHARSHINI R",
+"R.HIMADEEP",
+"R BHARANI ASWATH",
+"RITHIN MEERAN",
+"SANJAY RAJA S",
+"SANJJUSHRI VARSHINI R",
+"SARAVANAN S",
+"SHAQEEM SAMI MURTUZA S",
+"SHIVANI U",
+"SNEHA.B",
+"SUBHIKSHA V",
+"SWETHA K",
+"SWETHA M",
+"T SAHITH SAI",
+"UDAYA KEERTHI K",
+"S VARSHA",
+"VENKATESH L",
+"VIKRAM S",
+"V SAILESH",
+"YOGA PRIYA K",
+"YUVA DARANEE P",
+"PREM KUMAR",
+
+"R PRAVEEN RAJ",
+"RUBAN KUMAR B",
+"SAGA SRIHITHA",
+        "SAHIL JANAK",
+        "SAIBABA RASHMITHA",
+        "SAI SANJANA S",
+        "S AISHWARYA",
+        "SAMSON S",
+        "SAMUVEL J",
+        "SRI ARAVIND V",
+        "SRI HARI R V",
+        "SRIKANTH V",
+        "SRIVATSAN K B",
+        "SUBHIKSHNI V S",
+        "TARUNA DAGUR",
+        "THANYA M",
+        "VIGNESH S"
+        
+]
+const first_year = 
+[       "ABDHUL KALAM",
+        "ABINASH LINGAN K",
+        "A GUHAN",
+        "AHMED MUSTAFA N",
+        "AMUDHAVALLI R",
+        "ANAND A",
+        "ARAVINDAN I",
+        "ARUN PRASATH N",
+        "ASWIN M",
+        "AVINASH V",
+        "AZFER JAFFARALI",
+        "BAVANA A",
+        "B KAVIRAJAR",
+        "CHARUDHARSINI S",
+        "CHETAN ADITYA REDDY",
+        "DASARI VENKATA SAI REVANTH",
+        "DEEPICA G",
+        "GALIREDDY PUNEETH REDDY",
+        "G DHANUSH KUMAR",
+        "GIRIJA K",
+        "GOKUL R",
+        "GOMATHI R",
+        "GOWRI R",
+        "GUBBA GOUTHAM CHAITHANYA",
+        "HARE RAMA CHAKRABORTHY",
+        "HEMACHANDAR",
+        "HEMADRI R N",
+        "HEMANTH P",
+        "HILTON X",
+        "HITHESH KUMAR A",
+        "JANSHI M L",
+        "JAYASURYA A",
+        "JIBRON ACIP J",
+        "JOHINTH PATHI R S",
+        "JOSHUA FRAZER WARDEN",
+        "KAILASH I D",
+        "KANISHKA C",
+        "KARNATI PHANINDRA REDDY",
+        "KARTHIK P",
+        "KIRUBAKARAN S",
+        "K MANUSHRESTH",
+        "K S VARSHA",
+        "KUVVAKOLLU VENKATA ABHIRAM",
+        "LAL ARAVIND S",
+        "MANOJ BABU B",
+        "M GAYATHRIE",
+        "MONISH SRIRAM V",
+        "MUHAMMAD PARVEZ",
+        "MUKESH KARTHIKEYAN S",
+        "NEHARIKA K",
+        "PANEER SELVAM V",
+        "P H ROOPAN VISHNU",
+        "PONDEEPAN RAJ P",
+        "PRIYADHARSHINI M",
+        "RAJVEL M",
+        "RAKESH S S",
+        "RASWANTH V",
+        "RAVI SHANKAR V",
+        "RISHIKHA M",
+        "RISHYWANTH AMBALAM",
+        
+        
+        
+        
+
+        "SANTOSH KUMAR R",
+        "SARANYADEVI M S",
+        "S ARTHI",
+        "S BARATH",
+        "SHOBIKA S",
+        "SOFIYA B G",
+        
+        
+        
+        "SUMEET M",
+        "SUREKHA A K",
+        "SURENDER O",
+        "SURUTHI S",
+        "SURYA R",
+        "SUSMITHA S",
+        
+        
+        "YUGIVARMA S",
+        "THEJASWINI V",
+        "VIDYA V",
+        "VIVA VIJAYAKUMARAN"
+                ]
+
 
         setTimeout(() => {
             document.querySelector(".nloader").style.opacity = "0";
@@ -131,6 +317,7 @@
             document.querySelector(".nloader").style.zIndex = "-45";
           }, 1500);
           
+          var yo = 0;
 
           setTimeout(() => { 
               
@@ -157,26 +344,170 @@
           setTimeout(() => { 
               
           $('.mcre').css({opacity: "1"});
-          $('.crenig').css({opacity: "1"});
+          $('.crenig').css({opacity: "0"});
           
           $('.mcre').css({textAlign: "center"});
           }, 6000);
 
+          p = document.getElementById('a1');
+          p2 = document.getElementById('a2');
 
           setTimeout(() => { 
               
             $('.ai1').css({opacity: "1"});
             
             $('.ai2').css({opacity: "1"});
+
+
+            var i = 0;
+            
+
+            var x = setInterval(function() {
+
+            
+            p.classList.add('hide');        
+            p2.classList.add('hide');               // add the class
+            setTimeout(function() {              // change text
+              idx = true;
+              
+            }, 500);
+            
+            setTimeout(function() {         
+                       // delay and          // remove the class
+              if (  typeof secound_year[i] !== "undefined"){       // delay and 
+                p.classList.remove('hide')  
+               
+                //console.log(secound_year[i])
+                document.getElementById('c0').innerHTML = secound_year[i];
+                document.getElementById('c1').innerHTML = secound_year[i+1];
+                document.getElementById('c2').innerHTML = secound_year[i+2];
+                document.getElementById('c3').innerHTML = secound_year[i+3];
+                document.getElementById('c4').innerHTML = secound_year[i+4];
+                document.getElementById('c5').innerHTML = secound_year[i+5];
+              }
+              else{
+                
+            $('.ai1').css({opacity: "0"});
+            yo = 1;
+              }
+              
+
+              if(  typeof first_year[i] !== "undefined"){
+
+                p2.classList.remove('hide')
+                
+                document.getElementById('cc0').innerHTML = first_year[i];
+                document.getElementById('cc1').innerHTML = first_year[i+1];
+                document.getElementById('cc2').innerHTML = first_year[i+2];
+                document.getElementById('cc3').innerHTML = first_year[i+3];
+                document.getElementById('cc4').innerHTML = first_year[i+4];
+                document.getElementById('cc5').innerHTML = first_year[i+5];
+              }
+              else{
+                
+            $('.ai2').css({opacity: "0"});
+                clearInterval(x);
+                yo = 1;
+              }
+
+              
+            }, 500);
+              
+              
+              
+              i = i+6;
+            
+            //
+            }, 2000);
+
+
             }, 6700);
 
-            var counter = 10;
-            var myFunction = function() {
-                counter *= 10;
-                setTimeout(myFunction, counter);
-            }
-            setTimeout(myFunction, counter);
+              var ko = 0;
+            const fac = ["Preetiya","Meenalakhsmi","Dina Padma"];
+            const fac2 = [""];
+            var j =0;
+            var js = 1;
+            //document.getElementById('mySpan').innerHTML = '...'
+            var xr = setInterval(function() { 
+            if (yo==1 && js == 1){
+              $('.crenig').css({opacity: "1"});
+              
+ 
+                  
+              document.getElementById('a1').classList.remove('hide');
+              $('.ai1').css({opacity: "1"});
+            
 
+               document.getElementById('c0').innerHTML = fac[j];
+                document.getElementById('c1').innerHTML = fac[j+1];
+                document.getElementById('c2').innerHTML = fac[j+2];
+                document.getElementById('c3').innerHTML = fac[j+3];
+                document.getElementById('c4').innerHTML = fac[j+4];
+                document.getElementById('c5').innerHTML = fac[j+5];
+
+                
+              document.getElementById('a2').classList.remove('hide');
+              
+              $('.ai2').css({opacity: "1"}); 
+                document.getElementById('cc0').innerHTML = fac2[i];
+                document.getElementById('cc1').innerHTML = fac2[i+1];
+                document.getElementById('cc2').innerHTML = fac2[i+2];
+                document.getElementById('cc3').innerHTML = fac2[i+3];
+                document.getElementById('cc4').innerHTML = fac2[i+4];
+                document.getElementById('cc5').innerHTML = fac2[i+5];
+                
+                yo = 0;ko = 1;
+              }
+              
+              
+
+          }, 3000);
+
+          var xrr = setInterval(function() { }, 3000);
+          
+          var ii = 0;
+          var xrrr = setInterval(function() { 
+            if (yo==1){
+              
+              
+              $('.ai1').css({display: "none"});
+              
+              $('.ai2').css({display: "none"});
+
+              document.getElementById('a1').classList.add('hide');
+              $('.ai1').css({opacity: "0"}); 
+              document.getElementById('a2').classList.add('hide');
+              $('.ai2').css({opacity: "0"}); 
+            
+
+            document.getElementById('nig').innerHTML = "( Sponsors )";
+            
+            $('#sp').css({display: "block"}); 
+            
+            $('#sp').css({maxHeight: "fit-content"}); 
+            ii =1;
+
+            var xrr = setInterval(function() {
+              $('#blockl').css({display: "block"}); 
+              
+              $('#blockl').css({opacity: "1"});
+            } , 3000);
+            
+          }
+
+           
+
+
+            }, 5000);
+            yo=0;
+
+          //p2.classList.add('hide')
+          //p2.classList.add('hide')
+  
+
+
+          
     </script>
 
 
@@ -208,5 +539,4 @@
           //alert('Hey,\nCredits will be visible after 26th May, When the event is over !')
         }
         
-        //$('.block').css({display: "none"});
     </script>
