@@ -1,16 +1,33 @@
 # TALOS WEBSITE
-**DO NOT KANG MY WORK ! WITHOUT MY PERMISSION !**
+
+![Talos.png!](https://jesvijonathan.github.io/talos-website/talos_web.png "TALOS")
 
 ![](https://komarev.com/ghpvc/?username=jesvijonathan)
 
-*ENTIRE WEBSITE IS HARDCODED, AKA LEGIT WORK :)*
+> **DO NOT KANG MY WORK ! WITHOUT MY PERMISSION !** <br>
+> <em>**ENTIRE WEBSITE IS HARDCODED, AKA LEGIT WORK :)**</em>
 
-Working on the documentation, creedits & stuff, I'll update soon !.. 
+Working on the documentation, credits & stuff, I'll update soon !.. 
 
-Firstly, I would like to mention that this was a 1 week solo project and it turned out awsm ! 
-Secondly, everything in this project is hardcoded from scratch !
+Firstly, I would like to mention that this was a 1 week solo project and it turned out awsm ! <br>
+Secondly, everything in this project is hardcoded from scratch ! & <br>
+At last, Hi & I appreciate the time you took to visit this page.<br>
 
-##Things I would like to improvise on this build -
+
+## About
+>This project started as a project to my portfolio.
+>As an event website for cit, AI & DS DEPT. Symposium.
+>The project took a duration of 1.5 weeks.
+>I wanted things to look unique & different so i decided to hardcode everything.
+>All element are built from scratch.
+>It sure does stand out from UI/UX designers perspective
+>My objective was clear from the start, credit & addition of portfolio project. nothing else.
+>on second thought, i couldev made it better but thats for another time given that this projects time constrain was limited.
+>lots of things were worked on here, like website compression (<4mb), speed, responsiveness, event page, popup page, animation, file heirarchy, release, trailer, analytics, content, simplicity, ui/ux, etc.
+>I had a good time working on this project, the usesr feedback was positive overall...
+>I usually work on more advanced projects like OS's, Mods, Tools & Automation scripts.. but this was a side quest for me xD
+
+## Things I would like to improvise -
 - add poster/pic section in the "more" about event page (embed insta post or add pic) (use js switch or add below title of event).
 - make sponsors list in main page scrollable horizontally when expanded (with logo & text of company).
 - make credit page responsive or instead of an hardcode, just make it as an video.. makes life easier ;).
@@ -20,7 +37,7 @@ Secondly, everything in this project is hardcoded from scratch !
 - light mode toggle more accessible (in mobile view), maybe try with a frame and icon inside the circle like in desktop view... 
 - also center the theme toggle 
 - improvise the loading animation.
-- really need to move to a new domain, like talos.co.in or sub domain of ![](https://www.citchennai.edu.in/talos) <--works , cant put a professional site in a shit-unprofessional domain & deal with the problems it gives.., really countin on this one... like all the effort and work to display it on a free unsecure domain ? O_O THINK AGAIN !
+- really need to move to a new domain, like talos.co.in or sub domain of https://www.citchennai.edu.in/talos <--works , cant put a professional site in a shit-unprofessional domain & deal with the problems it gives.., really countin on this one... like all the effort and work to display it on a free unsecure domain ? O_O THINK AGAIN !
 - make scroll more lite for mobile view (especially 2nd section which has hardcoded scroll animation which looks dope on desktop but need tweaks for mobile view)
 - add cookies (theme, cache, events_list)
 - Implement a dedicated registration page/form with website theme (link gform with key id of our website)
@@ -40,14 +57,42 @@ Secondly, everything in this project is hardcoded from scratch !
 - add registration/venue/time details properly instead of buttons (idk, lets give it a try)
 - add event category section with event counter 
 - add arrow pointing down in mobile view (for swipe down hint for idiots)
-- add som e description under section title, especially for technical & non technical events.. so that it adds some content to the site
+- add some description under section title, especially for technical & non technical events.. so that it adds some content to the site
 - in section 2, ("brought to you by aids"), add cit & talos logo or somthin similar... would look cool
 - change favicon.. or add a bg or somthing.. it is not visible in mobile dark view
 - fix mobile share button in event-more page
 
 
-Most of 'em are really easy to implement, 
-Just require some tweakin.. 
-Imma leave it Here... 
+Most of 'em are really easy to implement<br>
+Just require some tweakin..<br>
+Imma leave it Here...<br>
 
-No Kanging ! Coz I Need the fukin credits & contact me before you do anything !
+
+## Credits
+
+  - **Jesvi Jonathan** - Ofc, thats ME, like bruv ??, I edited text files 👀 
+  - **Mauras Maria Rubenson** - For suggestions, helping, testing & most importantly, being there.. 🗿
+  - **Talos Team** - All the effort taken by entire Talos Team/Members to create the posters/imgs & write its content ✊
+  - **Haridev Ghandhi** - For editing video template 🎬
+<br>
+
+  - **Senthil Sir** - For citchennai.edu.in/talos Domain
+  - **Hashim Basha** - For (late night) suggestions
+  - **Dinuroop** - For suggestions
+  - **Karthikein** - For suggestions
+  - **Karupaya Paremeshwaren** - For cracking video template from website
+  - **Bharath Rajiv** - For .ml Domain
+  - **Vinu Balan** - For suggestions
+  - **Meenalakshmi Ma'am** - For suggestions<br>
+
+& Lot More Whom I Might Have Missed Out..
+
+
+### No Kanging My Work ! Coz I Need the fugin credits & contact me before you do anything !
+
+## Links
+>citchennai.edu.in/talos<br>
+>https://jesvijonathan.github.io/talos-website<br>
+>taloscit.ml<br>
+>jesvi.pythonanywhere.com<br>
+
