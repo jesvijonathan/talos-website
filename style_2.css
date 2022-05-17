@@ -1803,7 +1803,7 @@ display: none;
 }
 
 .content {
-  padding: 0 18px;
+  /* padding: 0 18px; */
   padding-top: 3vw;
   max-height: 0;
   overflow-y: hidden;
@@ -1861,7 +1861,7 @@ display: none;
 
 @media only screen and (max-width: 768px) {
   #spoo{
-    margin-left: 35vh;
+    margin-left: 7vh;
   }
   .content::-webkit-scrollbar {
     width: 1px; position: absolute;
@@ -1874,6 +1874,14 @@ display: none;
   overflow-y: hidden;
   overflow-x: visible;
   overflow-x: scroll;
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: space-between;
+      /* align-items: center; */
+      /* width: max-content; */
+      justify-content: flex-start;
   }
   /* .content{
     padding: 0 18px;
@@ -1891,14 +1899,14 @@ display: none;
     justify-content: flex-start;
     transition: 0.3s ease-in-out;
 
-  }
+  }*/
   .spon_m{
     height: 10rem;
-    width: 10rem;
-  }*/
+    width: max-content;
+  }
 
   .spon_n{
-    font-size: 0.4em;
+    font-size: 0em;
     padding-top: 2.4vw;
   }
   .thunder{
