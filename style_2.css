@@ -1806,6 +1806,8 @@ display: none;
   padding-top: 3vw;
   max-height: 0;
   overflow-y: hidden;
+  overflow-x: scroll;
+  overflow-x: visible;
   transition: max-height 0.2s ease-out;
   background-color:var(--bkg-colr);
 
@@ -1816,8 +1818,7 @@ display: none;
     /* align-items: center; */
     /* width: max-content; */
     justify-content: space-evenly;
-    transition: 0.3s ease-in-out;
-    scrollbar-width: none;
+    transition: 0.3s ease-in-out; 
 }  
 
 .content::-webkit-scrollbar {
@@ -1866,6 +1867,12 @@ display: none;
     height: 3px;
     
    display: none; 
+  }
+  .content{
+    
+  overflow-y: hidden;
+  overflow-x: visible;
+  overflow-x: scroll;
   }
   /* .content{
     padding: 0 18px;
