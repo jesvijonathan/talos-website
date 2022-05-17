@@ -1869,7 +1869,7 @@ display: none;
    display: none; 
   }
   .content{
-    
+    z-index: 19;
   overflow-y: hidden;
   overflow-x: visible;
   overflow-x: scroll;
