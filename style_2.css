@@ -549,13 +549,14 @@ letter-spacing: 0.2em;
   opacity: 0;
 }
   /* width */
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 4px; position: absolute;
+  z-index: 19;
   
 }
 
 /* Track */
-::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   
   width: 0px; position: absolute;
   background: #00000000; 
@@ -564,14 +565,13 @@ letter-spacing: 0.2em;
 }
  
 /* Handle */
-::-webkit-scrollbar-thumb {
-  
+body::-webkit-scrollbar-thumb {
   background: var(--scrl1); 
   transition: 0.3s ease-in-out;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+body::-webkit-scrollbar-thumb:hover {
   
   background: var(--scrl); 
 }
@@ -635,10 +635,11 @@ letter-spacing: 0.2em;
   
   padding-bottom: 5vw;
   padding-top: 4vw;
+  margin-left: 10vw;
 }
 .spon_m{
   height: 12vw;
-  width: 12vw;
+  /* width: 12vw; */
 }
 
 .spon_n{
@@ -679,7 +680,7 @@ letter-spacing: 0.2em;
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 4vw;
-    padding-top: 0px;
+    padding-top: 4vw;
 }
 
 .topic-head {
@@ -1799,11 +1800,12 @@ display: none;
   content: "\2212";
   color: white;
 }
+
 .content {
   padding: 0 18px;
   padding-top: 3vw;
   max-height: 0;
-  overflow: hidden;
+  overflow-y: hidden;
   transition: max-height 0.2s ease-out;
   background-color:var(--bkg-colr);
 
@@ -1812,16 +1814,59 @@ display: none;
     flex-wrap: nowrap;
     align-content: space-between;
     /* align-items: center; */
-    width: 100%;
+    /* width: max-content; */
     justify-content: space-evenly;
     transition: 0.3s ease-in-out;
+    scrollbar-width: none;
+}  
+
+.content::-webkit-scrollbar {
+  width: 1px; position: absolute;
+  height: 3px;
+  
+  
+}
+
+/* Track */
+.content::-webkit-scrollbar-track {
+  
+  width: 0px; position: absolute;
+  background: #00000000; 
+  transition: 1s ease-in-out;
+  
+}
+ 
+/* Handle */
+.content::-webkit-scrollbar-thumb { 
+  transition: 0.3s ease-in-out;
+  background: #00000000; transition: 1s ease-in-out;
+}
+.collapsible.active + .content::-webkit-scrollbar-thumb{
+  background:  var(--scrl1); 
+}
+
+/* Handle on hover */
+.collapsible.active + .content::-webkit-scrollbar-thumb:hover {
+  background: var(--scrl); 
 }
 .collapsible.active,
 .collapsible:hover {
   border-bottom: 2px solid rgba(161, 161, 161, 0);
 }
+#spoo{
+  margin-left: 50%;
+}
 
 @media only screen and (max-width: 768px) {
+  #spoo{
+    margin-left: 42vh;
+  }
+  .content::-webkit-scrollbar {
+    width: 1px; position: absolute;
+    height: 3px;
+    
+   display: none; 
+  }
   /* .content{
     padding: 0 18px;
     padding-top: 4vw;
@@ -2312,7 +2357,7 @@ display: none;
   }
   .credb{
     font-size: 28px;
-    padding-top: 0px;
+    padding-top: 6px;
   }
   .collapsible{
     font-size: 28px;
@@ -2322,7 +2367,9 @@ display: none;
     
     padding: 3rem;
     
-    padding-top: 0px;
+    padding-top: 5vw;
+    
+    padding-bottom: 5vw;
   }
 }
 
