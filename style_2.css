@@ -1841,7 +1841,8 @@ display: none;
 /* Handle */
 .content::-webkit-scrollbar-thumb { 
   transition: 0.3s ease-in-out;
-  background: #00000000; transition: 1s ease-in-out;
+  background: #00000000; 
+  transition: 1s ease-in-out;
 }
 .collapsible.active + .content::-webkit-scrollbar-thumb{
   background:  var(--scrl1); 
