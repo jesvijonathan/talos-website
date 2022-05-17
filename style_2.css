@@ -633,8 +633,8 @@ body::-webkit-scrollbar-thumb:hover {
 .spon{
   height: max-content;
   
-  padding-bottom: 5vw;
-  padding-top: 4vw;
+  padding-bottom: 3vw;
+  padding-top: 2vw;
   margin-left: 10vw;
 }
 .spon_m{
@@ -648,7 +648,7 @@ body::-webkit-scrollbar-thumb:hover {
   bottom: 0%; 
     text-align: center;
     color:var(--fnt-colr);
-    font-size: 1.3vw;
+    font-size: 1vw;
 }
 
 .credb{
@@ -1804,7 +1804,7 @@ display: none;
 
 .content {
   /* padding: 0 18px; */
-  padding-top: 3vw;
+  padding-top: 0vw;
   max-height: 0;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -1900,6 +1900,11 @@ display: none;
     transition: 0.3s ease-in-out;
 
   }*/
+  
+.spon{
+  padding-top: 4vw;
+  padding-bottom: 5vw;
+}
   .spon_m{
     height: 10rem;
     width: max-content;
