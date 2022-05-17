@@ -640,10 +640,11 @@ body::-webkit-scrollbar-thumb:hover {
 .spon_m{
   height: 12vw;
   /* width: 12vw; */
+  max-height: 110px;
 }
 
 .spon_n{
-  padding-top: 1.1vw;
+  padding-top: 1vw;
   bottom: 0%; 
     text-align: center;
     color:var(--fnt-colr);
