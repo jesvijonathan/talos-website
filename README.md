@@ -28,7 +28,7 @@ At last, Hi & I appreciate the time you took to visit this page.<br>
 >I usually work on more advanced projects like OS's, Mods, Tools & Automation scripts.. but this was a side quest for me xD
 
 
-[![Teaser](tps://img.youtube.com/vi/38wsXLJCXu0/0.jpg)](https://www.youtube.com/watch?v=38wsXLJCXu0)
+[![Teaser](https://img.youtube.com/vi/38wsXLJCXu0/0.jpg)](https://www.youtube.com/watch?v=38wsXLJCXu0)
 
 
 ## Things I would like to improvise  
