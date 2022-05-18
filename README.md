@@ -1,6 +1,9 @@
-
+<div align="center">
+  
 # TALOS WEBSITE
+</div>
 
+<br>
 <div align="center">
   
 ![Talos.png!](https://jesvijonathan.github.io/talos-website/talos_web.png "TALOS")
@@ -10,6 +13,7 @@
 > **DO NOT KANG MY WORK ! WITHOUT MY PERMISSION !** <br>
 > <em>**ENTIRE WEBSITE IS HARDCODED, AKA LEGIT WORK :)**</em>
 </div>
+  
   
 Firstly, I would like to mention that this was a 1 week solo project and it turned out awsm ! <br>
 Secondly, everything in this project is hardcoded from scratch ! & <br>
