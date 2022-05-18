@@ -89,9 +89,9 @@ Imma leave it Here...<br>
 ## Credits
 
   - **Jesvi Jonathan** - Ofc, thats ME, like bruv ??, I edited text files 👀 
-  - **Mauras Maria Rubenson** - For suggestions, helping, testing & most importantly, being there.. 🗿
+  - **Maurus Maria Rubenson** - For suggestions, helping, testing & most importantly, being there.. 🗿
   - **Talos Team** - All the effort taken by entire Talos Team/Members to create the posters/imgs & write its content ✊
-  - **Haridev Gandhi** - For editing video template 🎬
+  - **Haridev K Gandhi** - For editing video template 🎬
 <br>
 
   - **Senthil Sir** - For citchennai.edu.in/talos Domain
