@@ -27,6 +27,10 @@ At last, Hi & I appreciate the time you took to visit this page.<br>
 >I had a good time working on this project, the usesr feedback was positive overall...
 >I usually work on more advanced projects like OS's, Mods, Tools & Automation scripts.. but this was a side quest for me xD
 
+
+[![Teaser](tps://img.youtube.com/vi/38wsXLJCXu0/0.jpg)](https://www.youtube.com/watch?v=38wsXLJCXu0)
+
+
 ## Things I would like to improvise  
 <sub>
 <br>  ● add poster/pic section in the "more" about event page (embed insta post or add pic) (use js switch or add below title of event).
