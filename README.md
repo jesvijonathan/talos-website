@@ -1,14 +1,16 @@
+
 # TALOS WEBSITE
 
+<div align="center">
+  
 ![Talos.png!](https://jesvijonathan.github.io/talos-website/talos_web.png "TALOS")
 
 ![](https://komarev.com/ghpvc/?username=jesvijonathan)
 
 > **DO NOT KANG MY WORK ! WITHOUT MY PERMISSION !** <br>
 > <em>**ENTIRE WEBSITE IS HARDCODED, AKA LEGIT WORK :)**</em>
-
-Working on the documentation, credits & stuff, I'll update soon !.. 
-
+</div>
+  
 Firstly, I would like to mention that this was a 1 week solo project and it turned out awsm ! <br>
 Secondly, everything in this project is hardcoded from scratch ! & <br>
 At last, Hi & I appreciate the time you took to visit this page.<br>
@@ -27,9 +29,14 @@ At last, Hi & I appreciate the time you took to visit this page.<br>
 >I had a good time working on this project, the usesr feedback was positive overall...
 >I usually work on more advanced projects like OS's, Mods, Tools & Automation scripts.. but this was a side quest for me xD
 
+# Teaser
 
+<div align="center">
+  
 [![Teaser](https://img.youtube.com/vi/38wsXLJCXu0/0.jpg)](https://www.youtube.com/watch?v=38wsXLJCXu0)
 
+Teaser Video : https://www.youtube.com/watch?v=38wsXLJCXu0
+</div>
 
 ## Things I would like to improvise  
 <sub>
