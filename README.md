@@ -45,7 +45,7 @@ Teaser Video : https://www.youtube.com/watch?v=38wsXLJCXu0
 ## Things I would like to improvise  
 <sub>
 <br>  ● add poster/pic section in the "more" about event page (embed insta post or add pic) (use js switch or add below title of event).
-<br>  ● make sponsors list in main page scrollable horizontally when expanded (with logo & text of company).
+<br>  ● Create a seperate branch in same/current repository or beter fork the project and send a pull request for the upcoming year update... DO NOT DOWNLOAD THE ZIP & CREATE YOUR OWN REPO WITHOUT CREDIT OF INFORMATION... INSTEAD FORK THIS REPO AND MAKE CHANGES AND SEND A PULL REQUEST SO THAT I CAN MERGE IT AS A NEW BRANCH... This information is only for the future talos team who work on this project... kudos mate :)
 <br>  ● make credit page responsive or instead of an hardcode, just make it as an video.. makes life easier ;).
 <br>  ● add another column in contact section, be it email or some other option in the main menu (add js third dot for mobile view and split view for pc) (for pc, no third dot, instead split the container into 2 & one half phone other half other detail).
 <br>  ● add animation to hamburger menu/elements during open/close (bg blur animation & other popup animations) (rn its using display hide/view... make it a combination of z index - & + with transition).
