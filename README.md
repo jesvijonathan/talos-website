@@ -1,14 +1,20 @@
+<div align="center">
+  
 # TALOS WEBSITE
+</div>
 
+<br>
+<div align="center">
+  
 ![Talos.png!](https://jesvijonathan.github.io/talos-website/talos_web.png "TALOS")
 
 ![](https://komarev.com/ghpvc/?username=jesvijonathan)
 
 > **DO NOT KANG MY WORK ! WITHOUT MY PERMISSION !** <br>
 > <em>**ENTIRE WEBSITE IS HARDCODED, AKA LEGIT WORK :)**</em>
-
-Working on the documentation, credits & stuff, I'll update soon !.. 
-
+</div>
+  
+  
 Firstly, I would like to mention that this was a 1 week solo project and it turned out awsm ! <br>
 Secondly, everything in this project is hardcoded from scratch ! & <br>
 At last, Hi & I appreciate the time you took to visit this page.<br>
@@ -27,10 +33,19 @@ At last, Hi & I appreciate the time you took to visit this page.<br>
 >I had a good time working on this project, the usesr feedback was positive overall...
 >I usually work on more advanced projects like OS's, Mods, Tools & Automation scripts.. but this was a side quest for me xD
 
+# Teaser
+
+<div align="center">
+  
+[![Teaser](https://img.youtube.com/vi/38wsXLJCXu0/0.jpg)](https://www.youtube.com/watch?v=38wsXLJCXu0)
+
+Teaser Video : https://www.youtube.com/watch?v=38wsXLJCXu0
+</div>
+
 ## Things I would like to improvise  
 <sub>
 <br>  ● add poster/pic section in the "more" about event page (embed insta post or add pic) (use js switch or add below title of event).
-<br>  ● make sponsors list in main page scrollable horizontally when expanded (with logo & text of company).
+<br>  ● Create a seperate branch in same/current repository or beter fork the project and send a pull request for the upcoming year update... DO NOT DOWNLOAD THE ZIP & CREATE YOUR OWN REPO WITHOUT CREDIT OF INFORMATION... INSTEAD FORK THIS REPO AND MAKE CHANGES AND SEND A PULL REQUEST SO THAT I CAN MERGE IT AS A NEW BRANCH... This information is only for the future talos team who work on this project... kudos mate :)
 <br>  ● make credit page responsive or instead of an hardcode, just make it as an video.. makes life easier ;).
 <br>  ● add another column in contact section, be it email or some other option in the main menu (add js third dot for mobile view and split view for pc) (for pc, no third dot, instead split the container into 2 & one half phone other half other detail).
 <br>  ● add animation to hamburger menu/elements during open/close (bg blur animation & other popup animations) (rn its using display hide/view... make it a combination of z index - & + with transition).
@@ -74,9 +89,9 @@ Imma leave it Here...<br>
 ## Credits
 
   - **Jesvi Jonathan** - Ofc, thats ME, like bruv ??, I edited text files 👀 
-  - **Mauras Maria Rubenson** - For suggestions, helping, testing & most importantly, being there.. 🗿
+  - **Maurus Maria Rubenson** - For suggestions, helping, testing & most importantly, being there.. 🗿
   - **Talos Team** - All the effort taken by entire Talos Team/Members to create the posters/imgs & write its content ✊
-  - **Haridev Gandhi** - For editing video template 🎬
+  - **Haridev K Gandhi** - For editing video template 🎬
 <br>
 
   - **Senthil Sir** - For citchennai.edu.in/talos Domain
