@@ -1857,7 +1857,10 @@ display: none;
   border-bottom: 2px solid rgba(161, 161, 161, 0);
 }
 #spoo{
-  margin-left: 50%;
+  margin-left: 100%;
+}
+#spuuu{
+      margin-right: 10vw;
 }
 
 @media only screen and (max-width: 768px) {
