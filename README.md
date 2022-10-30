@@ -1,4 +1,11 @@
+# Steal my work if you are gay
+## like bruv, serously, some people are modifying and selling this project for cost & i dont like it, <br>How do i know this ?, well I'm a genius and I was able to track em down., 
+# Dont be a fucking loser, learn to give credits & get a life other than kanging peoples works
+<br><br>
+
+
 <div align="center">
+
   
 # TALOS WEBSITE
 </div>
