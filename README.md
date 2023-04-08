@@ -92,20 +92,19 @@ Imma leave it Here...<br>
 
 ## Credits
 
-  - **Jesvi Jonathan** - Ofc, thats ME, like bruv ??, I edited text files 👀 
-  - **Maurus Maria Rubenson** - For suggestions, helping, testing & most importantly, being there.. 🗿
+  - **Jesvi Jonathan** - Ofc, thats ME, like bruv ??, I edited all this text files 👀 
+  - **Maurus Maria Rubenson** - For suggestions, help, testing & most importantly, being there.. 🗿
   - **Talos Team** - All the effort taken by entire Talos Team/Members to create the posters/imgs & write its content ✊
   - **Haridev K Gandhi** - For editing video template 🎬
 <br>
 
   - **Senthil Sir** - For citchennai.edu.in/talos Domain
-  - **Hashim** - For (late night) suggestions
-  - **Dinuroop** - For suggestions
-  - **Karuppaiah** - For cracking video template from website
+  - **Hashim** - For being part of the team
+  - **Karuppaiah & Haridev** - For video template (cracking)
   - **Bharath** - For .ml Domain
   - **VinuBalan** - For suggestions
   - **Meenalakshmi Ma'am** - For suggestions<br>
-  - **Karthikeyan** - For suggestions
+  - **Karthikeyan** - For being part of the team
 
 & Lot More Whom I Might Have Missed Out..
 
@@ -118,3 +117,17 @@ Imma leave it Here...<br>
 >taloscit.ml<br>
 >jesvi.pythonanywhere.com<br>
 
+ <br><br>
+### This work/project of mine has been used by induviduals and institutes (without crediting me):
+
+- ##### K S Rangasamy College Of Technology
+  - >https://dakshaa.ksrct.ac.in/#
+  - >https://dakshaa.ksrct.ac.in/about.html
+  - >https://dakshaa.ksrct.ac.in/event.html
+  - >https://dakshaa.ksrct.ac.in/event-tect-paperpresentation%20mech.html
+
+- ##### V.S.B College Of Engineering
+  - >https://www.techviz.tech/
+
+- ##### Neil Kawde 
+  - >https://neilportfolio.web.app
