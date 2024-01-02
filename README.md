@@ -127,7 +127,6 @@ Imma leave it Here...<br>
   - >https://dakshaa.ksrct.ac.in/event-tect-paperpresentation%20mech.html
 
 - ##### V.S.B College Of Engineering
-  - >https://www.techviz.tech/
+  - >https://www.techviz.tech/ 
 
-- ##### Neil Kawde 
   - >https://neilportfolio.web.app
