@@ -106,13 +106,15 @@ Imma leave it Here...<br>
 & Lot More Whom I Might Have Missed Out..
 
 
-### Do not Kanging My Work ! I Need the fugin credits. Contact me before you do anything !
+### Do not Kang My Work ! I Need the fugin credits :) Contact me !
 
 ## Links
 >citchennai.edu.in/talos<br>
 >https://jesvijonathan.github.io/talos-website<br>
 >taloscit.ml<br>
 >jesvi.pythonanywhere.com<br>
+
+<br><br>
 <!--
  <br><br>
 ### This work/project of mine has been used by induviduals and institutes (without crediting me):
