@@ -97,26 +97,23 @@ Imma leave it Here...<br>
   - **Talos Team** - All the effort taken by entire Talos Team/Members to create the posters/imgs & write its content ✊
   - **Haridev K Gandhi** - For editing video template 🎬
 <br>
-
-  - **Senthil Sir** - For citchennai.edu.in/talos Domain
+ 
   - **Hashim** - For being part of the team
-  - **Karuppaiah & Haridev** - For video template (cracking)
-  - **Bharath** - For .ml Domain
-  - **VinuBalan** - For suggestions
+  - **Karuppaiah & Haridev** - For video template (cracking) 
   - **Meenalakshmi Ma'am** - For suggestions<br>
   - **Karthikeyan** - For being part of the team
 
 & Lot More Whom I Might Have Missed Out..
 
 
-### No Kanging My Work ! Coz I Need the fugin credits & contact me before you do anything !
+### Do not Kanging My Work ! I Need the fugin credits. Contact me before you do anything !
 
 ## Links
 >citchennai.edu.in/talos<br>
 >https://jesvijonathan.github.io/talos-website<br>
 >taloscit.ml<br>
 >jesvi.pythonanywhere.com<br>
-
+<!--
  <br><br>
 ### This work/project of mine has been used by induviduals and institutes (without crediting me):
 
@@ -129,4 +126,4 @@ Imma leave it Here...<br>
 - ##### V.S.B College Of Engineering
   - >https://www.techviz.tech/ 
 
-  - >https://neilportfolio.web.app
+  - >https://neilportfolio.web.app -->
