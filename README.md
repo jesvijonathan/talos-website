@@ -14,7 +14,7 @@
 
 ![](https://komarev.com/ghpvc/?username=jesvijonathan)
 
-> **DO NOT KANG MY WORK ! WITHOUT MY PERMISSION !** <br>
+> **You are free to use my work :)** <br>
 > <em>**ENTIRE WEBSITE IS HARDCODED, AKA LEGIT WORK :)**</em>
 </div>
   
@@ -106,7 +106,7 @@ Imma leave it Here...<br>
 & Lot More Whom I Might Have Missed Out..
 
 
-### Do not Kang My Work ! I Need the fugin credits :) Contact me !
+### You are free to use my work ! Just add me in the credits :)
 
 ## Links
 >citchennai.edu.in/talos<br>
